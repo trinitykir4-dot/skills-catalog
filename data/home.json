@@ -1,0 +1,1960 @@
+{
+ "built": "2026-07-29T06:42:38+00:00",
+ "machine": "home",
+ "skills": [
+  {
+   "chars": 11150,
+   "desc_en": "When the user wants to plan, design, or implement an A/B test or experiment, or build a growth experimentation program. Also use when the user mentions \"A/B test,\" \"split test,\" \"experiment,\" \"test this change,\" \"variant copy,\" \"multivariate test,\" \"hypothesis,\" \"should I test this,\" \"which version is better,\" \"test two versions,\" \"statistical significance,\" \"how long should I run this test,\" \"growth experiments,\" \"experiment velocity,\" \"experiment backlog,\" \"ICE score,\" \"experimentation program,\" or \"experiment playbook.\" Use this whenever someone is comparing two approaches and wants to measure which performs better, or when they want to build a systematic experimentation practice. For tracking implementation, see analytics. For page-level conversion optimization, see cro.",
+   "extras": [
+    "evals",
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "ab-testing",
+   "slug": "ab-testing",
+   "version": ""
+  },
+  {
+   "chars": 13085,
+   "desc_en": "Audit and improve web accessibility following WCAG 2.2 guidelines. Use when asked to \"improve accessibility\", \"a11y audit\", \"WCAG compliance\", \"screen reader support\", \"keyboard navigation\", or \"make accessible\".",
+   "extras": [
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "MIT",
+   "name": "accessibility",
+   "slug": "accessibility",
+   "version": ""
+  },
+  {
+   "chars": 7352,
+   "desc_en": "Research a company or person and get actionable sales intel. Works standalone with web search, supercharged when you connect enrichment tools or your CRM. Trigger with \"research [company]\", \"look up [person]\", \"intel on [prospect]\", \"who is [name] at [company]\", or \"tell me about [company]\".",
+   "extras": [],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "account-research",
+   "slug": "account-research",
+   "version": ""
+  },
+  {
+   "chars": 8944,
+   "desc_en": "Help users identify unique distribution advantages and master the lifecycle of acquisition channels to build a sustainable engine for growth and retention.",
+   "extras": [
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "acquisition-channels",
+   "slug": "acquisition-channels",
+   "version": ""
+  },
+  {
+   "chars": 20720,
+   "desc_en": "When the user wants to generate, iterate, or scale ad creative — headlines, descriptions, primary text, or full ad variations — for any paid advertising platform. Also use when the user mentions 'ad copy variations,' 'ad creative,' 'generate headlines,' 'RSA headlines,' 'bulk ad copy,' 'ad iterations,' 'creative testing,' 'ad performance optimization,' 'write me some ads,' 'Facebook ad copy,' 'Google ad headlines,' 'LinkedIn ad text,' 'static ads,' 'static ad concepts,' 'ad templates,' 'iMessage ad,' 'chat reveal ad,' 'fake DM ad,' 'ChatGPT ad,' 'Apple Notes ad,' 'AirDrop ad,' 'creative strategy,' 'creative roadmap,' 'creative retro,' 'hook writing,' 'creative review page,' 'present ad creative for approval,' 'motion video ad,' 'faceless video ad,' 'animated explainer ad,' 'motion collage ad,' or 'I need more ad variations.' Use this whenever someone needs to produce ad copy at scale or iterate on existing ads. For campaign strategy and targeting, see ads. For landing page copy, see copywriting.",
+   "extras": [
+    "assets",
+    "evals",
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "ad-creative",
+   "slug": "ad-creative",
+   "version": ""
+  },
+  {
+   "chars": 25493,
+   "desc_en": "When the user wants help with paid advertising campaigns on Google Ads, Meta (Facebook/Instagram), LinkedIn, Twitter/X, or other ad platforms. Also use when the user mentions 'PPC,' 'paid media,' 'ROAS,' 'CPA,' 'ad campaign,' 'retargeting,' 'audience targeting,' 'Google Ads,' 'Facebook ads,' 'LinkedIn ads,' 'ad budget,' 'cost per click,' 'ad spend,' 'should I run ads,' 'ABM,' 'account-based marketing,' 'B2B ads,' 'lead quality,' 'negative keywords,' 'Performance Max,' 'thought leader ads,' or 'when should I kill an ad.' Use this for campaign strategy, audience targeting, bidding, and optimization. For bulk ad creative generation and iteration, see ad-creative. For landing page optimization, see cro.",
+   "extras": [
+    "evals",
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "ads",
+   "slug": "ads",
+   "version": ""
+  },
+  {
+   "chars": 18134,
+   "desc_en": ">- Goal-driven E2E testing where a browser agent (Playwright MCP / computer-use) reads a natural-language goal and explores the app via the accessibility tree to assert outcomes — no pre-written script. Covers when intent-driven beats scripted, making agent runs deterministic (pinned model, temperature 0, seeded data, bounded steps, explicit success assertion, snapshot-not-pixel), cost/latency control, the accessibility-tree-first interaction model, CI gating, and graduating a stable run into a scripted Playwright test. Use when: \"agentic browser test,\" \"goal-driven browser test,\" \"let an agent explore the app,\" \"natural-language E2E,\" \"browser agent smoke test,\" \"Playwright MCP test.\" Not for: Writing/maintaining deterministic scripted Playwright tests — that is playwright-automation. Testing your product's OWN LLM features — that is ai-system-testing. Related: playwright-automation, ai-system-testing, exploratory-testing, test-reliability, qa-project-context.",
+   "extras": [
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "MIT",
+   "name": "agentic-browser-testing",
+   "slug": "agentic-browser-testing",
+   "version": ""
+  },
+  {
+   "chars": 4802,
+   "desc_en": "Help users build functional product prototypes from natural language or visual mocks using AI coding tools. This skill enables product leaders to bypass engineering bottlenecks and validate ideas through hands-on building.",
+   "extras": [
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "ai-assisted-prototyping",
+   "slug": "ai-assisted-prototyping",
+   "version": ""
+  },
+  {
+   "chars": 6626,
+   "desc_en": "Help users build robust infrastructure for measuring, monitoring, and iterating on AI product performance using human, code-based, and LLM-as-a-judge methodologies.",
+   "extras": [
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "ai-evals",
+   "slug": "ai-evals",
+   "version": ""
+  },
+  {
+   "chars": 7991,
+   "desc_en": "Help users interact with probabilistic models by designing interfaces that manage fluidity, intent, and agency while maintaining trust and control.",
+   "extras": [
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "ai-native-ux",
+   "slug": "ai-native-ux",
+   "version": ""
+  },
+  {
+   "chars": 7482,
+   "desc_en": "Help users decide where to apply AI effectively, manage the transition from deterministic to probabilistic software, and build long-term defensibility through verticalization and proprietary data.",
+   "extras": [
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "ai-product-strategy",
+   "slug": "ai-product-strategy",
+   "version": ""
+  },
+  {
+   "chars": 26914,
+   "desc_en": "When the user wants to optimize content for AI search engines, get cited by LLMs, or appear in AI-generated answers. Also use when the user mentions 'AI SEO,' 'AEO,' 'GEO,' 'LLMO,' 'answer engine optimization,' 'generative engine optimization,' 'LLM optimization,' 'AI Overviews,' 'optimize for ChatGPT,' 'optimize for Perplexity,' 'AI citations,' 'AI visibility,' 'zero-click search,' 'how do I show up in AI answers,' 'LLM mentions,' 'optimize for Claude/Gemini,' 'llms.txt,' 'OKF,' 'Open Knowledge Format,' 'knowledge bundle,' or 'agent-readable site.' Use this whenever someone wants their content to be cited or surfaced by AI assistants and AI search engines. For traditional technical and on-page SEO audits, see seo-audit. For structured data implementation, see schema.",
+   "extras": [
+    "evals",
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "ai-seo",
+   "slug": "ai-seo",
+   "version": ""
+  },
+  {
+   "chars": 8633,
+   "desc_en": "When the user wants to set up, improve, or audit analytics tracking and measurement. Also use when the user mentions \"set up tracking,\" \"GA4,\" \"Google Analytics,\" \"conversion tracking,\" \"event tracking,\" \"UTM parameters,\" \"tag manager,\" \"GTM,\" \"analytics implementation,\" \"tracking plan,\" \"how do I measure this,\" \"track conversions,\" \"Mixpanel,\" \"Segment,\" \"are my events firing,\" or \"analytics isn't working.\" Use this whenever someone asks how to know if something is working or wants to measure marketing results. For choosing attribution models, comparing multi-touch/MMM/incrementality, or reconciling conflicting numbers across tools, see attribution. For A/B test measurement, see ab-testing.",
+   "extras": [
+    "evals",
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "analytics",
+   "slug": "analytics",
+   "version": ""
+  },
+  {
+   "chars": 6530,
+   "desc_en": "Help users convert massive volumes of qualitative and quantitative feedback into high-confidence product decisions through rigorous synthesis and internal immersion.",
+   "extras": [
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "analyzing-user-feedback",
+   "slug": "analyzing-user-feedback",
+   "version": ""
+  },
+  {
+   "chars": 20786,
+   "desc_en": "When the user wants to figure out which marketing actually drives conversions and revenue, choose or interpret an attribution model, or reconcile conflicting numbers across tools. Also use when the user mentions \"attribution,\" \"attribution model,\" \"first-touch vs last-touch,\" \"multi-touch,\" \"which channel drives revenue,\" \"what's my real CAC,\" \"my dashboards disagree,\" \"Google/Meta says X but GA says Y,\" \"media mix model,\" \"MMM,\" \"incrementality,\" \"geo lift,\" \"holdout test,\" \"how did you hear about us,\" \"self-reported attribution,\" \"dark social,\" or wants to instrument attribution themselves — \"stitch my bookings to their source,\" \"SavvyCal/Calendly attribution,\" \"close the identify gap,\" \"track conversions on a third-party domain,\" \"first-party / self-hosted attribution.\" For event tracking setup and UTMs, see analytics. For ad-platform pixels/CAPI, see ads. For pipeline and CRM revenue reporting, see revops. For the AI-search attribution blind spot, see ai-seo.",
+   "extras": [
+    "evals",
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "attribution",
+   "slug": "attribution",
+   "version": ""
+  },
+  {
+   "chars": 6294,
+   "desc_en": "Audit a spreadsheet for formula accuracy, errors, and common mistakes. Scopes to a selected range, a single sheet, or the entire model (including financial-model integrity checks like BS balance, cash tie-out, and logic sanity). Triggers on \"audit this sheet\", \"check my formulas\", \"find formula errors\", \"QA this spreadsheet\", \"sanity check this\", \"debug model\", \"model check\", \"model won't balance\", \"something's off in my model\", \"model review\".",
+   "extras": [],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "audit-xls",
+   "slug": "audit-xls",
+   "version": ""
+  },
+  {
+   "chars": 5438,
+   "desc_en": "This skill applies brand guidelines to content creation. It should be used when the user asks to \"write an email\", \"draft a proposal\", \"create a pitch deck\", \"write a LinkedIn post\", \"draft a presentation\", \"write a Slack message\", \"draft sales content\", or any content creation request where brand voice should be applied. Also triggers on \"on-brand\", \"brand voice\", \"enforce voice\", \"apply brand guidelines\", \"brand-aligned content\", \"write in our voice\", \"use our brand tone\", \"make this sound like us\", \"rewrite this in our tone\", or \"this doesn't sound on-brand\". Not for generating guidelines from scratch (use guideline-generation) or discovering brand materials (use discover-brand).",
+   "extras": [
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "brand-voice-enforcement",
+   "slug": "brand-voice-enforcement",
+   "version": ""
+  },
+  {
+   "chars": 23142,
+   "desc_en": ">- Turn a vague bug report into a VERIFIED minimal reproduction and then a failing regression test, agent-driven end to end. Covers extracting the implicit repro from a thin report (env, build, steps, data), the reproduce-minimize-isolate-capture loop, git bisect to find the introducing commit, building a deterministic minimal repro (fixed seeds, frozen time, stubbed network), writing the failing regression test BEFORE the fix (red) and confirming the fix flips it green, and writing repro evidence back into the ticket. Distinguishes flaky-not-reproducible from environment-specific. Use when: \"reproduce this bug,\" \"minimal reproduction,\" \"repro steps,\" \"find the commit that broke it,\" \"git bisect,\" \"make the repro deterministic,\" \"write a failing test for this bug,\" \"regression test for a defect,\" \"can't reproduce this bug.\" Not for: Classifying/deduplicating/severity-routing existing failures without reproducing them — that is ai-bug-triage. Generating tests from specs rather than from a defect — that is ai-test-generation. Related: ai-bug-triage, ai-test-generation, test-reliability, systematic-debugging, qa-project-context.",
+   "extras": [
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "MIT",
+   "name": "bug-reproduction",
+   "slug": "bug-reproduction",
+   "version": ""
+  },
+  {
+   "chars": 6887,
+   "desc_en": "Help users master the transition from manual coding to managing AI-driven development workflows by focusing on high-level direction, parallel tasking, and rigorous automated review.",
+   "extras": [
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "building-with-ai-agents",
+   "slug": "building-with-ai-agents",
+   "version": ""
+  },
+  {
+   "chars": 6154,
+   "desc_en": "Produces a one-page cross-functional business snapshot for SMB owners — cash position (QuickBooks), sales trend (PayPal/Square), pipeline movement (HubSpot), this week's commitments (Calendar), urgent watch-list items (Gmail/Slack), and the single most important thing needing attention today. Proactively tries every available connector and gracefully scopes to whatever is connected — one connector gives a partial pulse; the full stack gives the full picture. Trigger when the user asks how the business is doing, wants a snapshot, a weekly summary, a Monday brief, or says anything like \"what am I missing\" or \"catch me up on the business.\"",
+   "extras": [
+    "reference"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "business-pulse",
+   "slug": "business-pulse",
+   "version": ""
+  },
+  {
+   "chars": 7846,
+   "desc_en": "Prepare for a sales call with account context, attendee research, and suggested agenda. Works standalone with user input and web research, supercharged when you connect your CRM, email, chat, or transcripts. Trigger with \"prep me for my call with [company]\", \"I'm meeting with [company] prep me\", \"call prep [company]\", or \"get me ready for [meeting]\".",
+   "extras": [],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "call-prep",
+   "slug": "call-prep",
+   "version": ""
+  },
+  {
+   "chars": 5210,
+   "desc_en": "Process call notes or a transcript — extract action items, draft follow-up email, generate internal summary. Use when pasting rough notes or a transcript after a discovery, demo, or negotiation call, drafting a customer follow-up, logging the activity for your CRM, or capturing objections and next steps for your team.",
+   "extras": [],
+   "hint": "<call notes or transcript>",
+   "invocable": false,
+   "license": "",
+   "name": "call-summary",
+   "slug": "call-summary",
+   "version": ""
+  },
+  {
+   "chars": 6511,
+   "desc_en": "Reads AR/AP, historical cash timing, and known fixed costs from QuickBooks, PayPal, Stripe, or Square — or a CSV upload — and produces a 30/60/90-day cash flow forecast with percentage-variance confidence bands and named risk flags. Delivers a chat summary and a downloadable XLSX. Use when the user asks \"forecast my cash flow,\" \"will I make payroll,\" mentions \"runway,\" or says \"cash crunch.\" Falls back to CSV upload when no connector is live.",
+   "extras": [
+    "reference"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "cash-flow-snapshot",
+   "slug": "cash-flow-snapshot",
+   "version": ""
+  },
+  {
+   "chars": 17745,
+   "desc_en": "When the user wants to reduce churn, build cancellation flows, set up save offers, recover failed payments, or implement retention strategies. Also use when the user mentions 'churn,' 'cancel flow,' 'offboarding,' 'save offer,' 'dunning,' 'failed payment recovery,' 'win-back,' 'retention,' 'exit survey,' 'pause subscription,' 'involuntary churn,' 'people keep canceling,' 'churn rate is too high,' 'how do I keep users,' or 'customers are leaving.' Use this whenever someone is losing subscribers or wants to build systems to prevent it. For post-cancel win-back email sequences, see emails. For in-app upgrade paywalls, see paywalls.",
+   "extras": [
+    "evals",
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "churn-prevention",
+   "slug": "churn-prevention",
+   "version": ""
+  },
+  {
+   "chars": 10143,
+   "desc_en": "When the user wants to find co-marketing partners, plan joint campaigns, or brainstorm partnership opportunities. Use when the user says 'co-marketing,' 'partner marketing,' 'joint campaign,' 'who should we partner with,' 'integration marketing,' 'cross-promotion,' 'collaborate with another company,' 'partnership ideas,' or 'co-brand.' For customer referral programs, see referrals. For launch-specific partnerships, see launch.",
+   "extras": [
+    "evals"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "co-marketing",
+   "slug": "co-marketing",
+   "version": ""
+  },
+  {
+   "chars": 7286,
+   "desc_en": "Write B2B cold emails and follow-up sequences that get replies. Use when the user wants to write cold outreach emails, prospecting emails, cold email campaigns, sales development emails, or SDR emails. Also use when the user mentions \"cold outreach,\" \"prospecting email,\" \"outbound email,\" \"email to leads,\" \"reach out to prospects,\" \"sales email,\" \"follow-up email sequence,\" \"nobody's replying to my emails,\" or \"how do I write a cold email.\" Covers subject lines, opening lines, body copy, CTAs, personalization, and multi-touch follow-up sequences. For warm/lifecycle email sequences, see emails. For sales collateral beyond emails, see sales-enablement.",
+   "extras": [
+    "evals",
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "cold-email",
+   "slug": "cold-email",
+   "version": ""
+  },
+  {
+   "chars": 8855,
+   "desc_en": "Build and leverage online communities to drive product growth and brand loyalty. Use when the user wants to create a community strategy, grow a Discord or Slack community, manage a forum or subreddit, build brand advocates, increase word-of-mouth, drive community-led growth, engage users post-signup, or turn customers into evangelists. Trigger phrases: \\\"build a community,\\\" \\\"community strategy,\\\" \\\"Discord community,\\\" \\\"Slack community,\\\" \\\"community-led growth,\\\" \\\"brand advocates,\\\" \\\"user community,\\\" \\\"forum strategy,\\\" \\\"community engagement,\\\" \\\"grow our community,\\\" \\\"ambassador program,\\\" \\\"community flywheel.\\",
+   "extras": [
+    "evals"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "community-marketing",
+   "slug": "community-marketing",
+   "version": ""
+  },
+  {
+   "chars": 3255,
+   "desc_en": "Analyze compensation — benchmarking, band placement, and equity modeling. Trigger with \"what should we pay a [role]\", \"is this offer competitive\", \"model this equity grant\", or when uploading comp data to find outliers and retention risks.",
+   "extras": [],
+   "hint": "<role, level, or dataset>",
+   "invocable": false,
+   "license": "",
+   "name": "comp-analysis",
+   "slug": "comp-analysis",
+   "version": ""
+  },
+  {
+   "chars": 7325,
+   "desc_en": "Help users identify sources of durable competitive power, evaluate market threats, and design products that are uniquely differentiated rather than just better versions of existing tools.",
+   "extras": [
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "competitive-strategy",
+   "slug": "competitive-strategy",
+   "version": ""
+  },
+  {
+   "chars": 14123,
+   "desc_en": "When the user wants to research, profile, or analyze competitors from their URLs. Also use when the user mentions 'competitor profile,' 'competitor research,' 'competitor analysis,' 'profile this competitor,' 'analyze competitor,' 'competitive intelligence,' 'competitor deep dive,' 'who are my competitors,' 'competitor landscape,' 'competitor dossier,' 'competitive audit,' or 'research these competitors.' Input is a list of competitor URLs. Output is structured competitor profile markdown files. For creating comparison/alternative pages from profiles, see competitors. For sales-specific battle cards, see sales-enablement.",
+   "extras": [
+    "evals",
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "competitor-profiling",
+   "slug": "competitor-profiling",
+   "version": ""
+  },
+  {
+   "chars": 8795,
+   "desc_en": "When the user wants to create competitor comparison or alternative pages for SEO and sales enablement. Also use when the user mentions 'alternative page,' 'vs page,' 'competitor comparison,' 'comparison page,' '[Product] vs [Product],' '[Product] alternative,' 'competitive landing pages,' 'how do we compare to X,' 'battle card,' or 'competitor teardown.' Use this for any content that positions your product against competitors. Covers four formats: singular alternative, plural alternatives, you vs competitor, and competitor vs competitor. For sales-specific competitor docs, see sales-enablement.",
+   "extras": [
+    "evals",
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "competitors",
+   "slug": "competitors",
+   "version": ""
+  },
+  {
+   "chars": 12150,
+   "desc_en": "When the user wants to plan a content strategy, decide what content to create, or figure out what topics to cover. Also use when the user mentions \"content strategy,\" \"what should I write about,\" \"content ideas,\" \"blog strategy,\" \"topic clusters,\" \"content planning,\" \"editorial calendar,\" \"content marketing,\" \"content roadmap,\" \"what content should I create,\" \"blog topics,\" \"content pillars,\" or \"I don't know what to write.\" Use this whenever someone needs help deciding what content to produce, not just writing it. For writing individual pieces, see copywriting. For SEO-specific audits, see seo-audit. For social media content specifically, see social.",
+   "extras": [
+    "evals",
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "content-strategy",
+   "slug": "content-strategy",
+   "version": ""
+  },
+  {
+   "chars": 8085,
+   "desc_en": "Help users build a sustainable habit of regular customer interaction to ensure product development is driven by real-world needs rather than internal assumptions.",
+   "extras": [
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "continuous-discovery",
+   "slug": "continuous-discovery",
+   "version": ""
+  },
+  {
+   "chars": 14974,
+   "desc_en": "When the user wants to edit, review, or improve existing marketing copy, or refresh outdated content. Also use when the user mentions 'edit this copy,' 'review my copy,' 'copy feedback,' 'proofread,' 'polish this,' 'make this better,' 'copy sweep,' 'tighten this up,' 'this reads awkwardly,' 'clean up this text,' 'too wordy,' 'sharpen the messaging,' 'refresh this content,' 'update this page,' 'this content is outdated,' or 'content audit.' Use this when the user already has copy and wants it improved or refreshed rather than rewritten from scratch. For writing new copy, see copywriting.",
+   "extras": [
+    "evals",
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "copy-editing",
+   "slug": "copy-editing",
+   "version": ""
+  },
+  {
+   "chars": 7599,
+   "desc_en": "When the user wants to write, rewrite, or improve marketing copy for any page — including homepage, landing pages, pricing pages, feature pages, about pages, or product pages. Also use when the user says \"write copy for,\" \"improve this copy,\" \"rewrite this page,\" \"marketing copy,\" \"headline help,\" \"CTA copy,\" \"value proposition,\" \"tagline,\" \"subheadline,\" \"hero section copy,\" \"above the fold,\" \"this copy is weak,\" \"make this more compelling,\" or \"help me describe my product.\" Use this whenever someone is working on website text that needs to persuade or convert. For email copy, see emails. For popup copy, see popups. For editing existing copy, see copy-editing. For the offer underneath the copy (bonuses, guarantees, value framing), see offers.",
+   "extras": [
+    "evals",
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "copywriting",
+   "slug": "copywriting",
+   "version": ""
+  },
+  {
+   "chars": 14453,
+   "desc_en": "Optimize Core Web Vitals (LCP, INP, CLS) for better page experience and search ranking. Use when asked to \"improve Core Web Vitals\", \"fix LCP\", \"reduce CLS\", \"optimize INP\", \"page experience optimization\", or \"fix layout shifts\".",
+   "extras": [
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "MIT",
+   "name": "core-web-vitals",
+   "slug": "core-web-vitals",
+   "version": ""
+  },
+  {
+   "chars": 6095,
+   "desc_en": "When the user wants to optimize, improve, or increase conversions on any marketing page or form — including homepage, landing pages, pricing pages, feature pages, lead capture forms, or contact forms. Also use when the user says 'CRO,' 'conversion rate optimization,' 'this page isn't converting,' 'improve conversions,' 'why isn't this page working,' 'my landing page sucks,' 'form abandonment,' 'nobody's converting,' 'low conversion rate,' or 'this page needs work.' Use this even if the user just shares a URL and asks for feedback. For signup/registration flows, see signup. For post-signup activation, see onboarding. For popups/modals, see popups.",
+   "extras": [
+    "evals",
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "cro",
+   "slug": "cro",
+   "version": ""
+  },
+  {
+   "chars": 6778,
+   "desc_en": "Help users conduct high-impact customer interviews that move beyond surface-level feature requests to identify root emotional frustrations and specific causal triggers.",
+   "extras": [
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "customer-interviews",
+   "slug": "customer-interviews",
+   "version": ""
+  },
+  {
+   "chars": 12665,
+   "desc_en": "When the user wants to conduct, analyze, or synthesize customer research. Use when the user mentions \"customer research,\" \"ICP research,\" \"talk to customers,\" \"analyze transcripts,\" \"customer interviews,\" \"survey analysis,\" \"support ticket analysis,\" \"voice of customer,\" \"VOC,\" \"build personas,\" \"customer personas,\" \"jobs to be done,\" \"JTBD,\" \"what do customers say,\" \"what are customers struggling with,\" \"Reddit mining,\" \"G2 reviews,\" \"review mining,\" \"digital watering holes,\" \"community research,\" \"forum research,\" \"competitor reviews,\" \"customer sentiment,\" or \"find out why customers churn/convert/buy.\" Use for both analyzing existing research assets AND gathering new research from online sources. For writing copy informed by research, see copywriting. For acting on research to improve pages, see cro.",
+   "extras": [
+    "evals",
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "customer-research",
+   "slug": "customer-research",
+   "version": ""
+  },
+  {
+   "chars": 2115,
+   "desc_en": "Transform data into compelling narratives using visualization, context, and persuasive structure. Use when presenting analytics to stakeholders, creating data reports, or building executive presentations.",
+   "extras": [
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "data-storytelling",
+   "slug": "data-storytelling",
+   "version": ""
+  },
+  {
+   "chars": 8561,
+   "desc_en": "Help users identify their most high-value customers by defining a hyper-specific ICP that maximizes product-market fit and acquisition efficiency.",
+   "extras": [
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "defining-icp",
+   "slug": "defining-icp",
+   "version": ""
+  },
+  {
+   "chars": 5031,
+   "desc_en": "Help users move beyond ambitious goal-setting to create a rigorous diagnosis of challenges and a clear, actionable plan for winning in their specific market.",
+   "extras": [
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "defining-product-strategy",
+   "slug": "defining-product-strategy",
+   "version": ""
+  },
+  {
+   "chars": 87126,
+   "desc_en": "Anti-slop frontend skill for landing pages, portfolios, and redesigns. The agent reads the brief, infers the right design direction, and ships interfaces that do not look templated. Real design systems when applicable, audit-first on redesigns, strict pre-flight check.",
+   "extras": [],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "design-taste-frontend",
+   "slug": "design-taste-frontend",
+   "version": ""
+  },
+  {
+   "chars": 23155,
+   "desc_en": "When the user wants to submit their product to startup, SaaS, AI, agent, MCP, no-code, or review directories for backlinks, domain rating, and discovery. Also use when the user mentions \"directory submissions,\" \"submit to directories,\" \"backlinks from directories,\" \"list my product,\" \"submit to Product Hunt,\" \"BetaList,\" \"TAAFT,\" \"Futurepedia,\" \"G2 listing,\" \"Capterra listing,\" \"AlternativeTo,\" \"SaaSHub,\" \"AI directories,\" \"MCP registry,\" \"agent directory,\" \"dofollow backlinks,\" \"launch directories,\" or \"directory tracker.\" Use this whenever someone is planning the directory layer of a product launch or an ongoing backlink campaign. For the broader launch moment, see launch. For programmatic SEO pages that should live behind these backlinks, see programmatic-seo. For AI citation optimization, see ai-seo.",
+   "extras": [
+    "evals",
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "directory-submissions",
+   "slug": "directory-submissions",
+   "version": ""
+  },
+  {
+   "chars": 6859,
+   "desc_en": "This skill orchestrates autonomous discovery of brand materials across enterprise platforms (Notion, Confluence, Google Drive, Box, SharePoint, Figma, Gong, Granola, Slack). It should be used when the user asks to \"discover brand materials\", \"find brand documents\", \"search for brand guidelines\", \"audit brand content\", \"what brand materials do we have\", \"find our style guide\", \"where are our brand docs\", \"do we have a style guide\", \"discover brand voice\", \"brand content audit\", or \"find brand assets\".",
+   "extras": [
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "discover-brand",
+   "slug": "discover-brand",
+   "version": ""
+  },
+  {
+   "chars": 2351,
+   "desc_en": "Draft an offer letter with comp details and terms. Use when a candidate is ready for an offer, assembling a total comp package (base, equity, signing bonus), writing the offer letter text itself, or prepping negotiation guidance for the hiring manager.",
+   "extras": [],
+   "hint": "<role and level>",
+   "invocable": false,
+   "license": "",
+   "name": "draft-offer",
+   "slug": "draft-offer",
+   "version": ""
+  },
+  {
+   "chars": 8550,
+   "desc_en": "When the user wants to create or optimize an email sequence, drip campaign, automated email flow, or lifecycle email program. Also use when the user mentions \"email sequence,\" \"drip campaign,\" \"nurture sequence,\" \"onboarding emails,\" \"welcome sequence,\" \"re-engagement emails,\" \"email automation,\" \"lifecycle emails,\" \"trigger-based emails,\" \"email funnel,\" \"email workflow,\" \"what emails should I send,\" \"welcome series,\" or \"email cadence.\" Use this for any multi-email automated flow. For cold outreach emails, see cold-email. For in-app onboarding, see onboarding.",
+   "extras": [
+    "evals",
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "emails",
+   "slug": "emails",
+   "version": ""
+  },
+  {
+   "chars": 27130,
+   "desc_en": "This skill encodes Emil Kowalski's philosophy on UI polish, component design, animation decisions, and the invisible details that make software feel great.",
+   "extras": [],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "emil-design-eng",
+   "slug": "emil-design-eng",
+   "version": ""
+  },
+  {
+   "chars": 2365,
+   "desc_en": "Create employment contracts, offer letters, and HR policy documents following legal best practices. Use when drafting employment agreements, creating HR policies, or standardizing employment documentation.",
+   "extras": [
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "employment-contract-templates",
+   "slug": "employment-contract-templates",
+   "version": ""
+  },
+  {
+   "chars": 8342,
+   "desc_en": "Help users build a sustainable engineering culture by measuring health through frameworks like Core 4, managing technical debt as leverage, and optimizing workflows with AI tools.",
+   "extras": [
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "engineering-health",
+   "slug": "engineering-health",
+   "version": ""
+  },
+  {
+   "chars": 7703,
+   "desc_en": "Help users build a robust enterprise sales engine by mastering founder-led discovery, navigating complex procurement cycles, and designing products that meet organizational governance needs.",
+   "extras": [
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "enterprise-sales-motion",
+   "slug": "enterprise-sales-motion",
+   "version": ""
+  },
+  {
+   "chars": 6751,
+   "desc_en": "Help users distinguish between deceptive tarpit ideas and high-potential opportunities by applying rigorous frameworks for market timing, business math, and user demand.",
+   "extras": [
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "evaluating-startup-ideas",
+   "slug": "evaluating-startup-ideas",
+   "version": ""
+  },
+  {
+   "chars": 6460,
+   "desc_en": "Help users navigate complex product decisions by weighing competing priorities and calculating long-term value. This skill covers build-vs-buy logic, technical debt evaluation, and communicating tradeoffs to senior leadership.",
+   "extras": [
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "evaluating-trade-offs",
+   "slug": "evaluating-trade-offs",
+   "version": ""
+  },
+  {
+   "chars": 8630,
+   "desc_en": "Help users master the high-stakes communication required to navigate executive reviews, board meetings, and strategic decision-making with clarity and confidence.",
+   "extras": [
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "executive-communication",
+   "slug": "executive-communication",
+   "version": ""
+  },
+  {
+   "chars": 20420,
+   "desc_en": ">- Design and execute structured exploratory testing sessions. Covers Session-Based Test Management (SBTM), charter writing, heuristic-based exploration (HICCUPS, FEW HICCUPS), bug discovery patterns, note-taking templates, and conversion of findings to automated tests. Use when: \"exploratory testing,\" \"SBTM,\" \"manual testing,\" \"bug hunting,\" \"test charter,\" \"heuristic testing.\" Not for: an AI browser agent autonomously exploring the app from a natural-language goal — use agentic-browser-testing. Not for: testing your product's own AI/LLM features — use ai-system-testing. Related: test-planning, ai-bug-triage, risk-based-testing, agentic-browser-testing.",
+   "extras": [
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "MIT",
+   "name": "exploratory-testing",
+   "slug": "exploratory-testing",
+   "version": ""
+  },
+  {
+   "chars": 2056,
+   "desc_en": "Extract design primitives from a public website and generate starter token files for your project.",
+   "extras": [
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "extract-design-system",
+   "slug": "extract-design-system",
+   "version": ""
+  },
+  {
+   "chars": 5456,
+   "desc_en": "Helps users discover and install agent skills when they ask questions like \"how do I do X\", \"find a skill for X\", \"is there a skill that can...\", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill.",
+   "extras": [],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "find-skills",
+   "slug": "find-skills",
+   "version": ""
+  },
+  {
+   "chars": 6885,
+   "desc_en": "Help users navigate the manual, unscalable journey of finding and closing their first B2B customers. This guide focuses on leveraging personal networks, co-creating with design partners, and obsessing over early user success.",
+   "extras": [
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "first-b2b-customers",
+   "slug": "first-b2b-customers",
+   "version": ""
+  },
+  {
+   "chars": 6317,
+   "desc_en": "Generate a weighted sales forecast with best/likely/worst scenarios, commit vs. upside breakdown, and gap analysis. Use when preparing a quarterly forecast call, assessing gap-to-quota from a pipeline CSV, deciding which deals to commit vs. call upside, or checking pipeline coverage against your number.",
+   "extras": [],
+   "hint": "<period>",
+   "invocable": false,
+   "license": "",
+   "name": "forecast",
+   "slug": "forecast",
+   "version": ""
+  },
+  {
+   "chars": 7967,
+   "desc_en": "Help users navigate the psychological burdens of leadership by cultivating emotional awareness, reframing failure, and building sustainable mental health practices.",
+   "extras": [
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "founder-psychology",
+   "slug": "founder-psychology",
+   "version": ""
+  },
+  {
+   "chars": 6357,
+   "desc_en": "Help users master the transition from product development to active selling by leveraging their unique status as founders to bridge the trust gap and define a scalable sales motion.",
+   "extras": [
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "founder-sales",
+   "slug": "founder-sales",
+   "version": ""
+  },
+  {
+   "chars": 5639,
+   "desc_en": "Help users recruit compatible co-founders, sequence early leadership hires to fill capability gaps, and manage the evolution of the executive team as the company scales.",
+   "extras": [
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "founding-exec-team",
+   "slug": "founding-exec-team",
+   "version": ""
+  },
+  {
+   "chars": 5933,
+   "desc_en": "When the user wants to plan, evaluate, or build a free tool for marketing purposes — lead generation, SEO value, or brand awareness. Also use when the user mentions \"engineering as marketing,\" \"free tool,\" \"marketing tool,\" \"calculator,\" \"generator,\" \"interactive tool,\" \"lead gen tool,\" \"build a tool for leads,\" \"free resource,\" \"ROI calculator,\" \"grader tool,\" \"audit tool,\" \"should I build a free tool,\" or \"tools for lead gen.\" Use this whenever someone wants to build something useful and give it away to attract leads or earn links. For downloadable content lead magnets (ebooks, checklists, templates), see lead-magnets.",
+   "extras": [
+    "evals",
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "free-tools",
+   "slug": "free-tools",
+   "version": ""
+  },
+  {
+   "chars": 8328,
+   "desc_en": "Help users navigate the end-to-end lifecycle of funding a startup, from choosing between bootstrapping and VC to closing a Series A or managing a strategic exit.",
+   "extras": [
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "fundraising",
+   "slug": "fundraising",
+   "version": ""
+  },
+  {
+   "chars": 2628,
+   "desc_en": "Implement GDPR-compliant data handling with consent management, data subject rights, and privacy by design. Use when building systems that process EU personal data, implementing privacy controls, or conducting GDPR compliance reviews.",
+   "extras": [
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "gdpr-data-handling",
+   "slug": "gdpr-data-handling",
+   "version": ""
+  },
+  {
+   "chars": 8919,
+   "desc_en": "Help users deliver high-impact feedback that drives behavior change while maintaining strong relationships and psychological safety through proven frameworks like GAIN and Radical Candor.",
+   "extras": [
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "giving-feedback",
+   "slug": "giving-feedback",
+   "version": ""
+  },
+  {
+   "chars": 6912,
+   "desc_en": "Help users establish high-impact goals that bridge the gap between abstract company vision and daily execution while maintaining radical focus.",
+   "extras": [
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "goal-setting-okrs",
+   "slug": "goal-setting-okrs",
+   "version": ""
+  },
+  {
+   "chars": 32743,
+   "desc_en": "Use for any question about a codebase, its architecture, file relationships, or project content — especially when graphify-out/ exists, where the question should be treated as a graphify query first. Turns any input (code, docs, papers, images, videos) into a persistent knowledge graph with god nodes, community detection, and query/path/explain tools.",
+   "extras": [
+    ".graphify_version",
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "graphify",
+   "slug": "graphify",
+   "version": ""
+  },
+  {
+   "chars": 6186,
+   "desc_en": "Help users build and scale a high-velocity growth experimentation engine that prioritizes impact and fosters a culture of rapid learning.",
+   "extras": [
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "growth-experimentation",
+   "slug": "growth-experimentation",
+   "version": ""
+  },
+  {
+   "chars": 7747,
+   "desc_en": "Help users transition from linear funnel thinking to a loop-based growth model that identifies and optimizes the core engines of their business.",
+   "extras": [
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "growth-model",
+   "slug": "growth-model",
+   "version": ""
+  },
+  {
+   "chars": 8159,
+   "desc_en": "Help users master the art of making high-stakes, irreversible decisions by using structured frameworks to reduce cognitive bias and maintain organizational momentum.",
+   "extras": [
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "high-stakes-decisions",
+   "slug": "high-stakes-decisions",
+   "version": ""
+  },
+  {
+   "chars": 7241,
+   "desc_en": "Help users identify, attract, and hire exceptional product managers and engineers by shifting from passive HR processes to a founder-led, high-intensity recruitment strategy.",
+   "extras": [
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "hiring-product-talent",
+   "slug": "hiring-product-talent",
+   "version": ""
+  },
+  {
+   "chars": 6123,
+   "desc_en": "Help users de-risk new product bets by testing core assumptions, building low-fidelity prototypes, and gathering high-signal evidence before investing heavy engineering resources.",
+   "extras": [
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "idea-validation",
+   "slug": "idea-validation",
+   "version": ""
+  },
+  {
+   "chars": 15634,
+   "desc_en": "When the user wants to create, generate, edit, or optimize images for marketing — blog heroes, social graphics, product mockups, profile banners, listing visuals, or brand assets. Also use when the user mentions 'AI image generation,' 'generate an image,' 'create a graphic,' 'product mockup,' 'hero image,' 'social media graphic,' 'banner image,' 'cover photo,' 'profile banner,' 'listing screenshot,' 'Flux,' 'Flux Kontext,' 'Midjourney,' 'DALL-E,' 'GPT Image,' 'ChatGPT Images,' 'Ideogram,' 'Gemini image,' 'Nano Banana,' 'Recraft,' 'Stable Diffusion,' 'Canva,' 'Figma,' 'image optimization,' 'compress images,' 'WebP,' or 'OG image.' Use this for general-purpose marketing image creation and optimization. For paid ad image creative and platform-specific ad specs, see ad-creative. For video production, see video.",
+   "extras": [
+    "evals",
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "image",
+   "slug": "image",
+   "version": ""
+  },
+  {
+   "chars": 10743,
+   "desc_en": "Use when the user wants to design, redesign, shape, critique, audit, polish, clarify, distill, harden, optimize, adapt, animate, colorize, extract, or otherwise improve a frontend interface. Covers websites, landing pages, dashboards, product UI, app shells, components, forms, settings, onboarding, and empty states. Handles UX review, visual hierarchy, information architecture, cognitive load, accessibility, performance, responsive behavior, theming, anti-patterns, typography, fonts, spacing, layout, alignment, color, motion, micro-interactions, UX copy, error states, edge cases, i18n, and reusable design systems or tokens. Also use for bland designs that need to become bolder or more delightful, loud designs that should become quieter, live browser iteration on UI elements, or ambitious visual effects that should feel technically extraordinary. Not for backend-only or non-UI tasks.",
+   "extras": [
+    "reference",
+    "scripts"
+   ],
+   "hint": "[craft|shape · audit|critique · animate|bolder|colorize|delight|layout|overdrive|quieter|typeset · adapt|clarify|distill · harden|onboard|optimize|polish · init|document|extract|live] [target]",
+   "invocable": true,
+   "license": "Apache 2.0",
+   "name": "impeccable",
+   "slug": "impeccable",
+   "version": "4.0.3"
+  },
+  {
+   "chars": 16976,
+   "desc_en": "When the user wants to run influencer, creator, or ambassador partnerships to promote their product — finding and vetting partners, structuring deals, briefing creators, disclosure compliance, and measuring ROI. Also use when the user mentions 'influencer marketing,' 'creator partnerships,' 'sponsorships,' 'YouTube sponsorships,' 'podcast sponsorships,' 'brand ambassador,' 'ambassador program,' 'creator program,' 'UGC creators,' 'B2B influencers,' 'thought leader ads,' 'gifting,' 'product seeding,' 'whitelisting creator content,' 'how much to pay an influencer,' or 'FTC disclosure.' For affiliate/referral payout mechanics, see referrals. For community-led advocacy, see community-marketing. For turning creator content into paid ads, see ad-creative.",
+   "extras": [
+    "evals"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "influencer-marketing",
+   "slug": "influencer-marketing",
+   "version": ""
+  },
+  {
+   "chars": 1436,
+   "desc_en": "Create structured interview plans with competency-based questions and scorecards. Trigger with \"interview plan for\", \"interview questions for\", \"how should we interview\", \"scorecard for\", or when the user is preparing to interview candidates.",
+   "extras": [],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "interview-prep",
+   "slug": "interview-prep",
+   "version": ""
+  },
+  {
+   "chars": 5051,
+   "desc_en": "Help users design and execute a high-signal interview process that prioritizes real-world performance over superficial charisma or pedigree.",
+   "extras": [
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "interviewing-evaluating-candidates",
+   "slug": "interviewing-evaluating-candidates",
+   "version": ""
+  },
+  {
+   "chars": 4536,
+   "desc_en": "Drafts overdue-invoice reminder emails from QuickBooks and PayPal data, matched to each customer's payment history and tone (gentle for good customers, firm for repeat late payers). Sends via PayPal with owner approval; non-PayPal invoices queue as mail drafts. Use when the user asks \"who owes me money,\" mentions overdue invoices, or wants to follow up on unpaid invoices.",
+   "extras": [
+    "reference"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "invoice-chase",
+   "slug": "invoice-chase",
+   "version": "0.2.0"
+  },
+  {
+   "chars": 15669,
+   "desc_en": "Builds end-to-end hiring packets — job post, structured interview guide with scoring rubric, and offer letter template — from a hiring brief. Triggers on: \"help me hire\", \"we're hiring for\", \"write a job post\", \"job description\", \"JD\", \"open role\", \"create a job ad\", \"interview questions\", \"scoring rubric\", \"draft an offer letter\", \"send an offer\", \"make a hiring packet\", or any request to recruit for a position. When in doubt, trigger — covers the full hiring workflow from job post through DocuSign envelope creation via browser. Does NOT screen or rank applicants.",
+   "extras": [
+    "reference"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "job-post-builder",
+   "slug": "job-post-builder",
+   "version": ""
+  },
+  {
+   "chars": 5423,
+   "desc_en": "Design effective KPI dashboards with metrics selection, visualization best practices, and real-time monitoring patterns. Use this skill when building an executive SaaS metrics dashboard tracking MRR, churn, and LTV/CAC ratios; designing an operations center with live service health and request throughput; creating a cohort retention analysis view for a product team; or debugging a dashboard where metrics contradict each other due to inconsistent calculation methodology.",
+   "extras": [
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "kpi-dashboard-design",
+   "slug": "kpi-dashboard-design",
+   "version": ""
+  },
+  {
+   "chars": 12935,
+   "desc_en": "When the user wants to plan a product launch, feature announcement, or release strategy. Also use when the user mentions 'launch,' 'Product Hunt,' 'feature release,' 'announcement,' 'go-to-market,' 'beta launch,' 'early access,' 'waitlist,' 'product update,' 'how do I launch this,' 'launch checklist,' 'GTM plan,' or 'we're about to ship.' Use this whenever someone is preparing to release something publicly. For ongoing marketing after launch, see marketing-ideas. For the offer being launched (bonuses, guarantees, scarcity, naming), see offers.",
+   "extras": [
+    "evals"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "launch",
+   "slug": "launch",
+   "version": ""
+  },
+  {
+   "chars": 5913,
+   "desc_en": "Help users plan, coordinate, and execute product launches that cut through market noise. This guide covers everything from internal alignment and GACCS briefs to community engagement and viral mechanics.",
+   "extras": [
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "launch-planning",
+   "slug": "launch-planning",
+   "version": ""
+  },
+  {
+   "chars": 10901,
+   "desc_en": "When the user wants to create, plan, or optimize a lead magnet for email capture or lead generation. Also use when the user mentions \"lead magnet,\" \"gated content,\" \"content upgrade,\" \"downloadable,\" \"ebook,\" \"cheat sheet,\" \"checklist,\" \"template download,\" \"opt-in,\" \"freebie,\" \"PDF download,\" \"resource library,\" \"content offer,\" \"email capture content,\" \"Notion template,\" \"spreadsheet template,\" or \"what should I give away for emails.\" Use this for planning what to create and how to distribute it. For interactive tools as lead magnets, see free-tools. For writing the actual content, see copywriting. For the email sequence after capture, see emails.",
+   "extras": [
+    "evals",
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "lead-magnets",
+   "slug": "lead-magnets",
+   "version": ""
+  },
+  {
+   "chars": 12581,
+   "desc_en": "Assess and classify legal risks using a severity-by-likelihood framework with escalation criteria. Use when evaluating contract risk, assessing deal exposure, classifying issues by severity, or determining whether a matter needs senior counsel or outside legal review.",
+   "extras": [],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "legal-risk-assessment",
+   "slug": "legal-risk-assessment",
+   "version": ""
+  },
+  {
+   "chars": 8067,
+   "desc_en": "Analyzes unit economics by product or service using PayPal merchant insights and QuickBooks cost data, benchmarks against inflation and cost changes, and shows pricing-scenario data (e.g. \"a 5% increase historically correlates with ~3% volume drop\"). Surfaces analysis only — does not recommend a price. Use when the user asks about raising prices, pricing, margin analysis, what to charge, whether costs are eating into profit, or how a price change might affect their business. Trigger even if the user doesn't say \"margin\" explicitly — phrases like \"am I making enough?\", \"should I charge more?\", or \"my costs are going up\" all call for this skill.",
+   "extras": [
+    "reference"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "margin-analyzer",
+   "slug": "margin-analyzer",
+   "version": ""
+  },
+  {
+   "chars": 2477,
+   "desc_en": "Calculate TAM/SAM/SOM for market opportunities using top-down, bottom-up, and value theory methodologies. Use this skill when sizing markets, estimating addressable revenue, validating market opportunity for a new venture, or building investor-ready market analysis for a startup pitch or business plan.",
+   "extras": [
+    "examples",
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "market-sizing-analysis",
+   "slug": "market-sizing-analysis",
+   "version": "1.0.0"
+  },
+  {
+   "chars": 12382,
+   "desc_en": "When the user wants multiple expert perspectives on a marketing question — a simulated board of advisors staffed by legendary marketers (Seth Godin, David Ogilvy, Eugene Schwartz, April Dunford, Rory Sutherland, Alex Hormozi, Byron Sharp, and more). Also use when the user mentions 'marketing council,' 'board of advisors,' 'advisory board,' 'what would Seth Godin say,' 'what would Ogilvy think,' 'channel Hormozi,' 'get multiple perspectives,' 'debate this,' 'have the council review,' 'marketing mentors,' or asks how a famous marketer would approach their problem. The council gives each advisor's take through their documented frameworks, surfaces where they disagree, and synthesizes a recommendation. For executing the winning direction, hand off to positioning, offers, copywriting, ads, or the relevant skill.",
+   "extras": [
+    "evals",
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "marketing-council",
+   "slug": "marketing-council",
+   "version": ""
+  },
+  {
+   "chars": 5301,
+   "desc_en": "When the user needs marketing ideas, inspiration, or strategies for their SaaS or software product. Also use when the user asks for 'marketing ideas,' 'growth ideas,' 'how to market,' 'marketing strategies,' 'marketing tactics,' 'ways to promote,' 'ideas to grow,' 'what else can I try,' 'I don't know how to market this,' 'brainstorm marketing,' or 'what marketing should I do.' Use this as a starting point whenever someone is stuck or looking for inspiration on how to grow. For specific channel execution, see the relevant skill (ads, social, emails, etc.).",
+   "extras": [
+    "evals",
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "marketing-ideas",
+   "slug": "marketing-ideas",
+   "version": ""
+  },
+  {
+   "chars": 8980,
+   "desc_en": "When the user wants to set up a recurring, self-running marketing workflow — a repeatable loop an AI agent runs on a cadence (weekly, daily, on a trigger) rather than a one-off task. Also use when the user mentions 'marketing loop,' 'recurring marketing workflow,' 'automate my marketing,' 'marketing on autopilot,' 'weekly marketing review,' 'ad fatigue check,' 'content refresh loop,' 'churn watch,' 'ranking drop alert,' 'always-on marketing,' 'marketing automation workflow,' or 'run this every week.' Use this to pick, adapt, and schedule an ongoing marketing loop that orchestrates the other marketing skills. For one-off marketing ideas, see marketing-ideas. For the experimentation loop specifically, see ab-testing.",
+   "extras": [
+    "evals",
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "marketing-loops",
+   "slug": "marketing-loops",
+   "version": ""
+  },
+  {
+   "chars": 9363,
+   "desc_en": "Help users design their marketing organizational structure and select the foundational technology stack needed to drive scalable growth.",
+   "extras": [
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "marketing-org-and-stack",
+   "slug": "marketing-org-and-stack",
+   "version": ""
+  },
+  {
+   "chars": 20988,
+   "desc_en": "When the user needs a comprehensive marketing plan for a client, a company they advise, or their own product. Also use when the user mentions \"marketing plan,\" \"growth plan,\" \"GTM plan,\" \"go-to-market plan,\" \"AARRR plan,\" \"90-day marketing plan,\" \"12-month marketing roadmap,\" \"fractional CMO plan,\" or \"fCMO plan.\" Generates an exhaustive 13-section plan structured by AARRR (Acquisition, Activation, Retention, Referral, Revenue), customized to the client's current budget, team, and stage, mapped to future funding milestones, cross-referenced with the 139-idea marketing-ideas library and an embedded 17-section current-state audit rubric, with a full marketing operations stack showing which skills and MCP/API integrations execute each part. Outputs a Notion-paste-ready markdown document. For positioning and ICP context before planning, see product-marketing. For stage-specific deep work, see onboarding, signup, emails, referrals, pricing.",
+   "extras": [
+    "evals",
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "marketing-plan",
+   "slug": "marketing-plan",
+   "version": ""
+  },
+  {
+   "chars": 21836,
+   "desc_en": "When the user wants to apply psychological principles, mental models, or behavioral science to marketing. Also use when the user mentions 'psychology,' 'mental models,' 'cognitive bias,' 'persuasion,' 'behavioral science,' 'why people buy,' 'decision-making,' 'consumer behavior,' 'anchoring,' 'social proof,' 'scarcity,' 'loss aversion,' 'framing,' or 'nudge.' Use this whenever someone wants to understand or leverage how people think and make decisions in a marketing context. For applying psychology to specific pages, see cro; for pricing tactics, see pricing; for copy framing, see copywriting.",
+   "extras": [
+    "evals"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "marketing-psychology",
+   "slug": "marketing-psychology",
+   "version": ""
+  },
+  {
+   "chars": 7675,
+   "desc_en": "Help users objectively assess where their product stands on the PMF spectrum by triangulating qualitative feedback, quantitative retention benchmarks, and organic growth signals.",
+   "extras": [
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "measuring-pmf",
+   "slug": "measuring-pmf",
+   "version": ""
+  },
+  {
+   "chars": 7588,
+   "desc_en": "Help users create memorable, suggestive, and distinctive names and brand identities that facilitate growth and drive long-term defensibility.",
+   "extras": [
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "naming-and-branding",
+   "slug": "naming-and-branding",
+   "version": ""
+  },
+  {
+   "chars": 6477,
+   "desc_en": "Help users define, validate, and operationalize a North Star Metric that bridges the gap between customer value and business success while driving team alignment.",
+   "extras": [
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "north-star-metrics",
+   "slug": "north-star-metrics",
+   "version": ""
+  },
+  {
+   "chars": 9252,
+   "desc_en": "When the user wants to design, construct, or improve an offer — the thing they actually sell — including value framing, bonus stacking, guarantee design, scarcity/urgency, naming, and payment structure. Also use when the user mentions 'offer,' 'offer design,' 'build an offer,' 'grand slam offer,' 'irresistible offer,' 'value stack,' 'bonus stack,' 'guarantee,' 'risk reversal,' 'money-back guarantee,' 'scarcity,' 'urgency,' 'high-ticket offer,' 'productize a service,' 'naming an offer,' 'payment plan,' 'down-sell,' 'upsell offer,' or 'why isn't my offer converting.' Best for services, agencies, courses, coaching, info products, high-ticket B2B, and direct-response. If you run pure self-serve SaaS, read pricing first — tiers and packaging do more work there. For price level itself (tiers, freemium, value metric), see pricing. For the page that presents the offer, see copywriting. For the launch moment, see launch. For sales collateral, see sales-enablement.",
+   "extras": [
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "offers",
+   "slug": "offers",
+   "version": ""
+  },
+  {
+   "chars": 10746,
+   "desc_en": "Apply David Ogilvy's advertising principles when writing or reviewing copy, headlines, product descriptions, landing pages, ads, emails, or any persuasive text. Use when the goal is copy that sells, not copy that wins awards. Covers positioning, headlines, promises, brand voice, long-form copy, and visual logic. Source: How to Create Advertising That Sells (1972) + Ogilvy on Advertising.",
+   "extras": [],
+   "hint": "",
+   "invocable": false,
+   "license": "MIT",
+   "name": "ogilvy-copywriting",
+   "slug": "ogilvy",
+   "version": ""
+  },
+  {
+   "chars": 6553,
+   "desc_en": "When the user wants to optimize post-signup onboarding, user activation, first-run experience, or time-to-value. Also use when the user mentions \"onboarding flow,\" \"activation rate,\" \"user activation,\" \"first-run experience,\" \"empty states,\" \"onboarding checklist,\" \"aha moment,\" \"new user experience,\" \"users aren't activating,\" \"nobody completes setup,\" \"low activation rate,\" \"users sign up but don't use the product,\" \"time to value,\" or \"first session experience.\" Use this whenever users are signing up but not sticking around. For signup/registration optimization, see signup. For ongoing email sequences, see emails.",
+   "extras": [
+    "evals",
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "onboarding",
+   "slug": "onboarding",
+   "version": ""
+  },
+  {
+   "chars": 9108,
+   "desc_en": "Help users design high-performing product and engineering organizations by choosing the right reporting models, team sizes, and cross-functional partnerships. It focuses on reducing friction and maximizing ownership through structural clarity.",
+   "extras": [
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "org-design",
+   "slug": "org-design",
+   "version": ""
+  },
+  {
+   "chars": 5781,
+   "desc_en": "When the user wants to create or optimize in-app paywalls, upgrade screens, upsell modals, or feature gates. Also use when the user mentions \"paywall,\" \"upgrade screen,\" \"upgrade modal,\" \"upsell,\" \"feature gate,\" \"convert free to paid,\" \"freemium conversion,\" \"trial expiration screen,\" \"limit reached screen,\" \"plan upgrade prompt,\" \"in-app pricing,\" \"free users won't upgrade,\" \"trial to paid conversion,\" or \"how do I get users to pay.\" Use this for any in-product moment where you're asking users to upgrade. Distinct from public pricing pages (see cro) — this focuses on in-product upgrade moments where the user has already experienced value. For pricing decisions, see pricing.",
+   "extras": [
+    "evals",
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "paywalls",
+   "slug": "paywalls",
+   "version": ""
+  },
+  {
+   "chars": 6016,
+   "desc_en": "Help users build a strategic professional network and public audience by transitioning from passive learning to active, value-driven contribution.",
+   "extras": [
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "personal-brand-network",
+   "slug": "personal-brand-network",
+   "version": ""
+  },
+  {
+   "chars": 7517,
+   "desc_en": "Analyze pipeline health — prioritize deals, flag risks, get a weekly action plan. Use when running a weekly pipeline review, deciding which deals to focus on this week, spotting stale or stuck opportunities, auditing for hygiene issues like bad close dates, or identifying single-threaded deals.",
+   "extras": [],
+   "hint": "<segment or rep>",
+   "invocable": false,
+   "license": "",
+   "name": "pipeline-review",
+   "slug": "pipeline-review",
+   "version": ""
+  },
+  {
+   "chars": 7928,
+   "desc_en": "Help users establish a multi-layered planning system that balances strategic alignment with operational agility across annual, quarterly, and weekly horizons.",
+   "extras": [
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "planning-cadence",
+   "slug": "planning-cadence",
+   "version": ""
+  },
+  {
+   "chars": 21890,
+   "desc_en": ">- Write production-grade Playwright tests in TypeScript: Page Object Model, fixtures, auto-waiting, user-facing locators, parallel execution, CI integration, sharding, and 2025-2026 feature awareness. Includes an explicit \"do not\" list for AI agents. Use when: \"Playwright,\" \"write E2E test,\" \"page object,\" \"new Playwright suite,\" \"Playwright config.\" Not for: fixing one flaky test at runtime — use test-reliability. Not for: bulk regenerating selectors after a UI refactor — use selector-drift-recovery. Not for: visual baseline creation/management — use visual-testing. Not for: deep WCAG/axe audits — use accessibility-testing. Related: visual-testing, ci-cd-integration, api-testing, test-reliability, selector-drift-recovery, accessibility-testing.",
+   "extras": [
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "MIT",
+   "name": "playwright-automation",
+   "slug": "playwright-automation",
+   "version": ""
+  },
+  {
+   "chars": 5763,
+   "desc_en": "Help users master the transition from sales-led to product-led growth by leveraging the product itself as the primary vehicle for customer education and revenue generation.",
+   "extras": [
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "plg-fundamentals",
+   "slug": "plg-fundamentals",
+   "version": ""
+  },
+  {
+   "chars": 5705,
+   "desc_en": "Help users transition from a pure self-serve model to a hybrid motion that uses human sales to capture large enterprise deals while maintaining a frictionless product entry point.",
+   "extras": [
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "plg-sales-integration",
+   "slug": "plg-sales-integration",
+   "version": ""
+  },
+  {
+   "chars": 11795,
+   "desc_en": "When the user wants to create or optimize popups, modals, overlays, slide-ins, or banners for conversion purposes. Also use when the user mentions \"exit intent,\" \"popup conversions,\" \"modal optimization,\" \"lead capture popup,\" \"email popup,\" \"announcement banner,\" \"overlay,\" \"collect emails with a popup,\" \"exit popup,\" \"scroll trigger,\" \"sticky bar,\" or \"notification bar.\" Use this for any overlay or interrupt-style conversion element. For forms outside of popups, see cro. For general page conversion optimization, see cro.",
+   "extras": [
+    "evals"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "popups",
+   "slug": "popups",
+   "version": ""
+  },
+  {
+   "chars": 6610,
+   "desc_en": "Help users define the strategic context for their product by identifying the right competitive alternatives, unique value drivers, and target segments to win a market category.",
+   "extras": [
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "positioning",
+   "slug": "positioning",
+   "version": ""
+  },
+  {
+   "chars": 7355,
+   "desc_en": "Help users design and execute a press strategy that moves beyond vanity metrics to achieve specific business goals like funding, user acquisition, or B2B credibility.",
+   "extras": [
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "pr-and-press",
+   "slug": "pr-and-press",
+   "version": ""
+  },
+  {
+   "chars": 9226,
+   "desc_en": "When the user wants help with pricing decisions, packaging, or monetization strategy. Also use when the user mentions 'pricing,' 'pricing tiers,' 'freemium,' 'free trial,' 'packaging,' 'price increase,' 'value metric,' 'Van Westendorp,' 'willingness to pay,' 'monetization,' 'how much should I charge,' 'my pricing is wrong,' 'pricing page,' 'annual vs monthly,' 'per seat pricing,' 'should I offer a free plan,' 'pricing page teardown,' 'pricing page audit,' 'is my pricing page AI-readable,' or 'can AI read my pricing.' Use this whenever someone is figuring out what to charge, how to structure their plans, or wants to audit a pricing page (for humans and for the AI agents that shortlist tools). For in-app upgrade screens, see paywalls. For offer construction (bonuses, guarantees, value framing, naming) on services/courses/coaching/high-ticket B2B, see offers.",
+   "extras": [
+    "evals",
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "pricing",
+   "slug": "pricing",
+   "version": ""
+  },
+  {
+   "chars": 2493,
+   "desc_en": "Document a business process — flowcharts, RACI, and SOPs. Use when formalizing a process that lives in someone's head, building a RACI to clarify who owns what, writing an SOP for a handoff or audit, or capturing the exceptions and edge cases of how work actually gets done.",
+   "extras": [],
+   "hint": "<process name or description>",
+   "invocable": false,
+   "license": "",
+   "name": "process-doc",
+   "slug": "process-doc",
+   "version": ""
+  },
+  {
+   "chars": 8043,
+   "desc_en": "Help users design, execute, and analyze product experiments to validate hypotheses and measure true incremental impact while avoiding common statistical pitfalls.",
+   "extras": [
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "product-experiments",
+   "slug": "product-experiments",
+   "version": ""
+  },
+  {
+   "chars": 9389,
+   "desc_en": "When the user wants to create or update their product marketing context document. Also use when the user mentions 'product context,' 'marketing context,' 'set up context,' 'positioning,' 'who is my target audience,' 'describe my product,' 'ICP,' 'ideal customer profile,' or wants to avoid repeating foundational information across marketing tasks. Use this at the start of any new project before using other marketing skills — it creates `.agents/product-marketing.md` that all other skills reference for product, audience, and positioning context.",
+   "extras": [
+    "evals"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "product-marketing",
+   "slug": "product-marketing",
+   "version": ""
+  },
+  {
+   "chars": 8067,
+   "desc_en": "Help users build a professional eye for quality, articulate the reasoning behind successful product paradigms, and develop the conviction to make high-stakes decisions before data is available.",
+   "extras": [
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "product-taste",
+   "slug": "product-taste",
+   "version": ""
+  },
+  {
+   "chars": 4545,
+   "desc_en": "Help users select, implement, and optimize a modern product tool stack that reduces operational friction and accelerates delivery cycles.",
+   "extras": [
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "product-tool-stack",
+   "slug": "product-tool-stack",
+   "version": ""
+  },
+  {
+   "chars": 6968,
+   "desc_en": "Help users define a compelling, qualitative description of a future state that aligns decentralized teams and motivates long-term innovation.",
+   "extras": [
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "product-vision",
+   "slug": "product-vision",
+   "version": ""
+  },
+  {
+   "chars": 7090,
+   "desc_en": "When the user wants to create SEO-driven pages at scale using templates and data. Also use when the user mentions \"programmatic SEO,\" \"template pages,\" \"pages at scale,\" \"directory pages,\" \"location pages,\" \"[keyword] + [city] pages,\" \"comparison pages,\" \"integration pages,\" \"building many pages for SEO,\" \"pSEO,\" \"generate 100 pages,\" \"data-driven pages,\" or \"templated landing pages.\" Use this whenever someone wants to create many similar pages targeting different keywords or locations. For auditing existing SEO issues, see seo-audit. For content strategy planning, see content-strategy.",
+   "extras": [
+    "evals",
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "programmatic-seo",
+   "slug": "programmatic-seo",
+   "version": ""
+  },
+  {
+   "chars": 16901,
+   "desc_en": "When the user wants to find, qualify, and build a list of prospects to reach out to — across B2B SaaS, general B2B, or local small businesses. Also use when the user mentions \"prospecting,\" \"build a prospect list,\" \"find prospects,\" \"find leads,\" \"lead gen list,\" \"find SaaS companies that,\" \"find B2B companies,\" \"find local businesses,\" \"ICP-fit accounts,\" \"who should we go after,\" \"outbound list,\" \"target account list,\" \"find clients near me,\" \"businesses without websites,\" \"prospect research,\" \"qualified leads,\" \"find my first customers,\" \"early adopters,\" \"design partners,\" \"beta users,\" or \"who has this problem.\" Use this for the list-building and qualification phase. For writing the outbound copy after the list is built, see cold-email. For deep competitive research on specific accounts, see competitor-profiling.",
+   "extras": [
+    "evals",
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "prospecting",
+   "slug": "prospecting",
+   "version": ""
+  },
+  {
+   "chars": 7033,
+   "desc_en": "When the user wants help with public relations, earned media, press coverage, journalist outreach, or media strategy (not pull requests). Also use when the user mentions 'PR,' 'public relations,' 'press,' 'press release,' 'press coverage,' 'media outreach,' 'pitch a journalist,' 'get featured,' 'media list,' 'media kit,' 'press kit,' 'newsjacking,' 'news hijack,' 'HARO,' 'Qwoted,' 'Featured,' 'Help A Reporter,' 'reporter request,' 'tech press,' 'TechCrunch,' 'earned media,' 'thought leadership placement,' 'op-ed,' 'guest article,' 'press contacts,' or 'how do I get press.' Use this for earned media work — finding journalists, pitching stories, newsjacking, and responding to press requests. For startup/SaaS/AI directory submissions, see directory-submissions. For product launches, see launch. For social-media engagement, see social. For cold-email outreach to prospects, see cold-email.",
+   "extras": [
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "public-relations",
+   "slug": "public-relations",
+   "version": ""
+  },
+  {
+   "chars": 8383,
+   "desc_en": "Help users master the art of public speaking by decomposing the skill into manageable components, leveraging storytelling frameworks, and utilizing professional acting techniques for executive presence.",
+   "extras": [
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "public-speaking",
+   "slug": "public-speaking",
+   "version": ""
+  },
+  {
+   "chars": 8477,
+   "desc_en": "Help users navigate product failure by diagnosing root causes, evaluating conviction, and executing successful pivots or turnarounds based on proven industry frameworks.",
+   "extras": [
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "recovering-from-failure",
+   "slug": "recovering-from-failure",
+   "version": ""
+  },
+  {
+   "chars": 1213,
+   "desc_en": "Track and manage recruiting pipeline stages. Trigger with \"recruiting update\", \"candidate pipeline\", \"how many candidates\", \"hiring status\", or when the user discusses sourcing, screening, interviewing, or extending offers.",
+   "extras": [],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "recruiting-pipeline",
+   "slug": "recruiting-pipeline",
+   "version": ""
+  },
+  {
+   "chars": 7491,
+   "desc_en": "When the user wants to create, optimize, or analyze a referral program, affiliate program, or word-of-mouth strategy. Also use when the user mentions 'referral,' 'affiliate,' 'ambassador,' 'word of mouth,' 'viral loop,' 'refer a friend,' 'partner program,' 'referral incentive,' 'how to get referrals,' 'customers referring customers,' or 'affiliate payout.' Use this whenever someone wants existing users or partners to bring in new customers. For launch-specific virality, see launch.",
+   "extras": [
+    "evals",
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "referrals",
+   "slug": "referrals",
+   "version": ""
+  },
+  {
+   "chars": 7077,
+   "desc_en": "Help users build sustainable growth engines by transitioning from accidental word-of-mouth to structured referral programs and viral product loops.",
+   "extras": [
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "referrals-word-of-mouth",
+   "slug": "referrals-word-of-mouth",
+   "version": ""
+  },
+  {
+   "chars": 26665,
+   "desc_en": ">- Validate release readiness with evidence-based go/no-go decisions. Covers go/no-go checklists, smoke test suite design, staged rollout validation, rollback criteria and procedures, and post-deployment verification. Ensures release confidence comes from data, not feelings. Use when: \"release ready,\" \"go/no-go,\" \"smoke test,\" \"release checklist,\" \"rollback plan,\" \"staged rollout,\" \"canary deploy.\" Not for: safe-release techniques (flags, canary, dark launch) applied during the rollout itself — use testing-in-production; scheduled probes that run continuously after release — use synthetic-monitoring; designing new tests from prod telemetry — use observability-driven-testing. Related: testing-in-production, qa-metrics, ci-cd-integration, ai-system-testing.",
+   "extras": [
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "MIT",
+   "name": "release-readiness",
+   "slug": "release-readiness",
+   "version": ""
+  },
+  {
+   "chars": 5066,
+   "desc_en": "Help users identify the drivers of long-term retention and implement behavioral mechanics that keep customers coming back. This guide focuses on measuring the survival curve of users and optimizing the product environment for high frequency usage.",
+   "extras": [
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "retention-engagement",
+   "slug": "retention-engagement",
+   "version": ""
+  },
+  {
+   "chars": 16706,
+   "desc_en": "Review a contract against your organization's negotiation playbook — flag deviations, generate redlines, provide business impact analysis. Use when reviewing vendor or customer agreements, when you need clause-by-clause analysis against standard positions, or when preparing a negotiation strategy with prioritized redlines and fallback positions.",
+   "extras": [],
+   "hint": "<contract file or text>",
+   "invocable": false,
+   "license": "",
+   "name": "review-contract",
+   "slug": "review-contract",
+   "version": ""
+  },
+  {
+   "chars": 15247,
+   "desc_en": "When the user wants help with revenue operations, lead lifecycle management, or marketing-to-sales handoff processes. Also use when the user mentions 'RevOps,' 'revenue operations,' 'lead scoring,' 'lead routing,' 'MQL,' 'SQL,' 'pipeline stages,' 'deal desk,' 'CRM automation,' 'marketing-to-sales handoff,' 'data hygiene,' 'leads aren't getting to sales,' 'pipeline management,' 'lead qualification,' or 'when should marketing hand off to sales.' Use this for anything involving the systems and processes that connect marketing to revenue. For cold outreach emails, see cold-email. For email drip campaigns, see emails. For pricing decisions, see pricing.",
+   "extras": [
+    "evals",
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "revops",
+   "slug": "revops",
+   "version": ""
+  },
+  {
+   "chars": 1630,
+   "desc_en": "Identify, assess, and mitigate operational risks. Trigger with \"what are the risks\", \"risk assessment\", \"risk register\", \"what could go wrong\", or when the user is evaluating risks associated with a project, vendor, process, or decision.",
+   "extras": [],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "risk-assessment",
+   "slug": "risk-assessment",
+   "version": ""
+  },
+  {
+   "chars": 4348,
+   "desc_en": "Help users move from reactive feature-building to strategic resource allocation by applying rigorous scoring, financial modeling, and portfolio balancing.",
+   "extras": [
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "roadmap-prioritization",
+   "slug": "roadmap-prioritization",
+   "version": ""
+  },
+  {
+   "chars": 6494,
+   "desc_en": "Help users master the art of facilitating productive, decision-oriented meetings that unblock teams, strengthen interpersonal bonds, and accelerate shipping velocity.",
+   "extras": [
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "running-meetings",
+   "slug": "running-meetings",
+   "version": ""
+  },
+  {
+   "chars": 14581,
+   "desc_en": "When the user wants to create sales collateral, pitch decks, one-pagers, objection handling docs, or demo scripts. Also use when the user mentions 'sales deck,' 'pitch deck,' 'one-pager,' 'leave-behind,' 'objection handling,' 'deal-specific ROI analysis,' 'demo script,' 'talk track,' 'sales playbook,' 'proposal template,' 'buyer persona card,' 'help my sales team,' 'sales materials,' or 'what should I give my sales reps.' Use this for any document or asset that helps a sales team close deals. For competitor comparison pages and battle cards, see competitors. For marketing website copy, see copywriting. For cold outreach emails, see cold-email. For the offer being sold (bonuses, guarantees, pricing structure), see offers.",
+   "extras": [
+    "evals",
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "sales-enablement",
+   "slug": "sales-enablement",
+   "version": ""
+  },
+  {
+   "chars": 5248,
+   "desc_en": "When the user wants to add, fix, or optimize schema markup and structured data on their site. Also use when the user mentions \"schema markup,\" \"structured data,\" \"JSON-LD,\" \"rich snippets,\" \"schema.org,\" \"FAQ schema,\" \"product schema,\" \"review schema,\" \"breadcrumb schema,\" \"Google rich results,\" \"knowledge panel,\" \"star ratings in search,\" or \"add structured data.\" Use this whenever someone wants their pages to show enhanced results in Google. For broader SEO issues, see seo-audit. For AI search optimization, see ai-seo.",
+   "extras": [
+    "evals",
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "schema",
+   "slug": "schema",
+   "version": ""
+  },
+  {
+   "chars": 16424,
+   "desc_en": "When the user wants to audit, review, or diagnose SEO issues on their site. Also use when the user mentions \"SEO audit,\" \"technical SEO,\" \"why am I not ranking,\" \"SEO issues,\" \"on-page SEO,\" \"meta tags review,\" \"SEO health check,\" \"my traffic dropped,\" \"lost rankings,\" \"not showing up in Google,\" \"site isn't ranking,\" \"Google update hit me,\" \"page speed,\" \"core web vitals,\" \"crawl errors,\" or \"indexing issues.\" Use this even if the user just says something vague like \"my SEO is bad\" or \"help with SEO\" — start with an audit. For building pages at scale to target keywords, see programmatic-seo. For adding structured data, see schema. For AI search optimization, see ai-seo.",
+   "extras": [
+    "evals",
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "seo-audit",
+   "slug": "seo-audit",
+   "version": ""
+  },
+  {
+   "chars": 16535,
+   "desc_en": ">- Decision framework for isolating every external dependency in a test suite: when to use in-process mocks, HTTP stubs (MSW, WireMock), record-replay, fault injection (Toxiproxy), or ephemeral real services (Testcontainers), and how to enforce that no real calls escape in CI. Use when: \"mock service,\" \"stub API,\" \"fake service,\" \"WireMock,\" \"MSW,\" \"Toxiproxy,\" \"test isolation,\" \"dependency management,\" \"stub an external API in CI.\" Not for: consumer-driven contract verification (Pact, broker) — use contract-testing; standing up a full Docker Compose env or seed data — use test-environments; broad resilience/game-day fault campaigns — use chaos-engineering. Related: contract-testing, test-environments, api-testing, test-data-management, chaos-engineering.",
+   "extras": [
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "MIT",
+   "name": "service-virtualization",
+   "slug": "service-virtualization",
+   "version": ""
+  },
+  {
+   "chars": 7310,
+   "desc_en": "Help users accelerate their product development cycles by implementing high-intensity rituals, ruthless scoping, and technical guardrails that allow teams to ship faster without sacrificing quality.",
+   "extras": [
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "shipping-velocity",
+   "slug": "shipping-velocity",
+   "version": ""
+  },
+  {
+   "chars": 10368,
+   "desc_en": "When the user wants to optimize signup, registration, account creation, or trial activation flows. Also use when the user mentions \"signup conversions,\" \"registration friction,\" \"signup form optimization,\" \"free trial signup,\" \"reduce signup dropoff,\" \"account creation flow,\" \"people aren't signing up,\" \"signup abandonment,\" \"trial conversion rate,\" \"nobody completes registration,\" \"too many steps to sign up,\" or \"simplify our signup.\" Use this whenever the user has a signup or registration flow that isn't performing. For post-signup onboarding, see onboarding. For lead capture forms (not account creation), see cro.",
+   "extras": [
+    "evals"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "signup",
+   "slug": "signup",
+   "version": ""
+  },
+  {
+   "chars": 13480,
+   "desc_en": "When the user wants to plan, map, or restructure their website's page hierarchy, navigation, URL structure, or internal linking. Also use when the user mentions \"sitemap,\" \"site map,\" \"visual sitemap,\" \"site structure,\" \"page hierarchy,\" \"information architecture,\" \"IA,\" \"navigation design,\" \"URL structure,\" \"breadcrumbs,\" \"internal linking strategy,\" \"website planning,\" \"what pages do I need,\" \"how should I organize my site,\" or \"site navigation.\" Use this whenever someone is planning what pages a website should have and how they connect. NOT for XML sitemaps (that's technical SEO — see seo-audit). For SEO audits, see seo-audit. For structured data, see schema.",
+   "extras": [
+    "evals",
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "site-architecture",
+   "slug": "site-architecture",
+   "version": ""
+  },
+  {
+   "chars": 14880,
+   "desc_en": "When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram, TikTok, Facebook, or other platforms, or wants to do social listening and engagement triage. Also use when the user mentions 'LinkedIn post,' 'Twitter thread,' 'social media,' 'content calendar,' 'social scheduling,' 'engagement,' 'viral content,' 'what should I post,' 'repurpose this content,' 'tweet ideas,' 'LinkedIn carousel,' 'social media strategy,' 'grow my following,' 'TikTok video,' 'Reels,' 'Shorts,' 'video script,' 'video hook,' 'short-form video,' 'create a reel,' 'social listening,' 'brand mentions,' 'competitor monitoring,' 'top posts to comment on,' 'find people asking for,' 'carousel,' 'slide-by-slide,' or 'document post.' Use this for social media content creation, repurposing, scheduling, short-form video scripting, and social listening. For broader content strategy, see content-strategy. For paid ads, see ad-creative. For earned media, see public-relations.",
+   "extras": [
+    "evals",
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "social",
+   "slug": "social",
+   "version": ""
+  },
+  {
+   "chars": 7727,
+   "desc_en": "Build comprehensive 3-5 year financial models with revenue projections, cost structures, cash flow analysis, and scenario planning for early-stage startups. Use this skill when creating financial projections, calculating burn rate or runway, modeling fundraising scenarios, or preparing investor-ready financials for a seed or Series A raise.",
+   "extras": [
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "startup-financial-modeling",
+   "slug": "startup-financial-modeling",
+   "version": "1.0.0"
+  },
+  {
+   "chars": 10026,
+   "desc_en": "Track, calculate, and optimize key performance metrics for SaaS, marketplace, consumer, and B2B startups from seed through Series A, including unit economics, growth efficiency, and cash management. Use this skill when defining a metrics framework, calculating CAC/LTV/burn multiple, benchmarking business health, or preparing metrics dashboards for investors or board reporting.",
+   "extras": [],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "startup-metrics-framework",
+   "slug": "startup-metrics-framework",
+   "version": "1.0.0"
+  },
+  {
+   "chars": 12412,
+   "desc_en": "Remove AI writing patterns from prose. Use when drafting, editing, or reviewing text to eliminate predictable AI tells and produce more human-like writing.",
+   "extras": [
+    "stop-slop-project-knowledge.md"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "MIT",
+   "name": "stop-slop",
+   "slug": "stop-slop",
+   "version": ""
+  },
+  {
+   "chars": 6296,
+   "desc_en": "Help users master their personal output by shifting from reactive scheduling to intentional energy management, internal trigger mastery, and proactive boundary setting.",
+   "extras": [
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "time-energy-management",
+   "slug": "time-energy-management",
+   "version": ""
+  },
+  {
+   "chars": 14583,
+   "desc_en": "Rapidly triage an incoming NDA and classify it as GREEN (standard approval), YELLOW (counsel review), or RED (full legal review). Use when a new NDA arrives from sales or business development, when screening for embedded non-solicits, non-competes, or missing carveouts, or when deciding whether an NDA can be signed under standard delegation.",
+   "extras": [],
+   "hint": "<NDA file or text>",
+   "invocable": false,
+   "license": "",
+   "name": "triage-nda",
+   "slug": "triage-nda",
+   "version": ""
+  },
+  {
+   "chars": 8351,
+   "desc_en": "Help users reach their first moment of core value by optimizing the first-run experience, removing friction, and aligning product design with psychological triggers.",
+   "extras": [
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "user-onboarding-activation",
+   "slug": "user-onboarding-activation",
+   "version": ""
+  },
+  {
+   "chars": 7251,
+   "desc_en": "React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tasks involving React components, Next.js pages, data fetching, bundle optimization, or performance improvements.",
+   "extras": [
+    "AGENTS.md",
+    "README.md",
+    "metadata.json",
+    "rules"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "MIT",
+   "name": "vercel-react-best-practices",
+   "slug": "vercel-react-best-practices",
+   "version": ""
+  },
+  {
+   "chars": 14292,
+   "desc_en": "When the user wants to create, generate, or produce video content using AI tools or programmatic frameworks. Also use when the user mentions 'video production,' 'AI video,' 'Remotion,' 'Hyperframes,' 'HeyGen,' 'Synthesia,' 'Veo,' 'Sora,' 'Runway,' 'Kling,' 'Seedance,' 'Hailuo,' 'MiniMax,' 'Pika,' 'Hunyuan,' 'Wan,' 'video generation,' 'AI avatar,' 'talking head video,' 'programmatic video,' 'video template,' 'explainer video,' 'product demo video,' 'video pipeline,' 'copy this edit,' 'match this video style,' 'reverse-engineer this video,' 'edit like this reference,' or 'make me a video.' Use this for video creation, generation, and production workflows. For video content strategy and what to post, see social. For paid video ad creative, see ad-creative.",
+   "extras": [
+    "evals",
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "video",
+   "slug": "video",
+   "version": ""
+  },
+  {
+   "chars": 7008,
+   "desc_en": "Help users transform abstract ideas into actionable project specs that align engineering and design teams on the problem and success metrics.",
+   "extras": [
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "writing-prds",
+   "slug": "writing-prds",
+   "version": ""
+  },
+  {
+   "chars": 6303,
+   "desc_en": "Help users master professional writing to bridge gaps between stakeholders, scale their leadership influence, and ensure organizational clarity through structured narratives and async-first norms.",
+   "extras": [
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "written-communication",
+   "slug": "written-communication",
+   "version": ""
+  }
+ ]
+}
