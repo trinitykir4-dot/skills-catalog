@@ -1,5 +1,5 @@
 {
- "built": "2026-10-04T18:21:04+00:00",
+ "built": "2026-10-04T21:14:58+00:00",
  "machine": "work",
  "skills": [
   {
@@ -1340,6 +1340,19 @@
    "license": "",
    "name": "org-design",
    "slug": "org-design",
+   "version": ""
+  },
+  {
+   "chars": 2251,
+   "desc_en": "Find and read Kir's earlier Claude and Codex chats on this Mac. Use whenever Kir refers to past work (\"мы это уже делали\", \"в прошлой сессии\", \"как мы решили с ...\", \"найди тот чат\", \"что я говорил про ...\"), asks a question whose answer probably lives in an earlier chat, or a task depends on a decision made in another session and the project's HANDOFF does not cover it.",
+   "extras": [
+    "read_session.py"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "past-sessions",
+   "slug": "past-sessions",
    "version": ""
   },
   {
