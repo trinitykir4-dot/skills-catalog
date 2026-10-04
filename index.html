@@ -176,14 +176,14 @@
     <h1>Каталог установленных скиллов</h1>
     <p class="lede">Скиллы — пакеты инструкций, расширяющие Claude: маркетинг, продукт, продажи, разработка, тексты. Здесь всё, что установлено на двух машинах; карточка — краткий пересказ инструкции скилла. Поиск и фильтры работают прямо на странице.</p>
     <div class="datastrip">
-      <div class="stat"><b>152</b><span>скиллов</span></div>
+      <div class="stat"><b>157</b><span>скиллов</span></div>
       <div class="stat"><b>9</b><span>семейства</span></div>
       <div class="stat"><b>1</b><span>со слэш-командой</span></div>
-      <div class="stat"><b>1536K</b><span>знаков инструкций</span></div>
+      <div class="stat"><b>1552K</b><span>знаков инструкций</span></div>
     </div>
   </header>
   <div class="controls">
-    <div class="filters" role="group" aria-label="Фильтр по семейству"><button class="chip" data-filter="all" aria-pressed="true">Все</button><button class="chip" data-filter="text" data-fam="text" aria-pressed="false"><span class="dot"></span>Текст</button><button class="chip" data-filter="mkt" data-fam="mkt" aria-pressed="false"><span class="dot"></span>Маркетинг</button><button class="chip" data-filter="product" data-fam="product" aria-pressed="false"><span class="dot"></span>Продукт</button><button class="chip" data-filter="sales" data-fam="sales" aria-pressed="false"><span class="dot"></span>Продажи</button><button class="chip" data-filter="money" data-fam="money" aria-pressed="false"><span class="dot"></span>Финансы и право</button><button class="chip" data-filter="people" data-fam="people" aria-pressed="false"><span class="dot"></span>Люди</button><button class="chip" data-filter="design" data-fam="design" aria-pressed="false"><span class="dot"></span>Дизайн</button><button class="chip" data-filter="dev" data-fam="dev" aria-pressed="false"><span class="dot"></span>Разработка</button><button class="chip" data-filter="other" data-fam="other" aria-pressed="false"><span class="dot"></span>Прочее</button><button class="chip chip-only" data-filter="only" aria-pressed="false">Не везде · 2</button></div>
+    <div class="filters" role="group" aria-label="Фильтр по семейству"><button class="chip" data-filter="all" aria-pressed="true">Все</button><button class="chip" data-filter="text" data-fam="text" aria-pressed="false"><span class="dot"></span>Текст</button><button class="chip" data-filter="mkt" data-fam="mkt" aria-pressed="false"><span class="dot"></span>Маркетинг</button><button class="chip" data-filter="product" data-fam="product" aria-pressed="false"><span class="dot"></span>Продукт</button><button class="chip" data-filter="sales" data-fam="sales" aria-pressed="false"><span class="dot"></span>Продажи</button><button class="chip" data-filter="money" data-fam="money" aria-pressed="false"><span class="dot"></span>Финансы и право</button><button class="chip" data-filter="people" data-fam="people" aria-pressed="false"><span class="dot"></span>Люди</button><button class="chip" data-filter="design" data-fam="design" aria-pressed="false"><span class="dot"></span>Дизайн</button><button class="chip" data-filter="dev" data-fam="dev" aria-pressed="false"><span class="dot"></span>Разработка</button><button class="chip" data-filter="other" data-fam="other" aria-pressed="false"><span class="dot"></span>Прочее</button><button class="chip chip-only" data-filter="only" aria-pressed="false">Не везде · 7</button></div>
     <input type="search" class="search" id="q" placeholder="поиск по названию и описанию…" aria-label="Поиск по скиллам">
   </div>
   <div class="grid" id="grid">
@@ -798,6 +798,24 @@
       <h3>Граф знаний из папки файлов</h3>
       <p>Собирает из кода, документов, статей, картинок и видео один граф связей: разбор кода по синтаксическому дереву плюс смысловое извлечение параллельными агентами, кластеризация на сообщества, поиск узлов-концентраторов. На выходе интерактивный HTML, JSON под GraphRAG и отчёт, где у каждой связи стоит честная пометка - извлечено, выведено или спорно. По готовому графу можно задавать вопросы, строить путь между двумя понятиями и просить объяснить узел.</p>
       <dl class="meta"><dt>Когда</dt><dd>Вопрос об архитектуре проекта или о большом наборе файлов</dd><dt>Вызов</dt><dd><span class="call">/graphify · авто</span></dd><dt>Объём</dt><dd>33 тыс. знаков + .graphify_version, references</dd></dl>
+    </article>
+    <article class="card" data-fam="other" data-where="work" data-terms="grill-me a relentless interview to sharpen a plan or design.">
+      <div class="card-top">
+        <span class="slug">grill-me</span>
+        <span class="fam-tag"><span class="dot"></span>Прочее</span>
+      </div>
+      <h3>grill-me</h3>
+      <p>A relentless interview to sharpen a plan or design.</p>
+      <dl class="meta"><dt>Вызов</dt><dd><span class="call">по смыслу задачи · авто</span></dd><dt>Где</dt><dd><span class="where">Только рабочий Mac</span></dd><dt>Объём</dt><dd>0.2 тыс. знаков + agents</dd></dl>
+    </article>
+    <article class="card" data-fam="other" data-where="work" data-terms="grilling grill the user relentlessly about a plan, decision, or idea. grill the user relentlessly about a plan, decision, or idea. use when the user wants to stress-test their thinking, or uses any &#x27;grill&#x27; trigger phrases.">
+      <div class="card-top">
+        <span class="slug">grilling</span>
+        <span class="fam-tag"><span class="dot"></span>Прочее</span>
+      </div>
+      <h3>grilling</h3>
+      <p>Grill the user relentlessly about a plan, decision, or idea.</p>
+      <dl class="meta"><dt>Вызов</dt><dd><span class="call">по смыслу задачи · авто</span></dd><dt>Где</dt><dd><span class="where">Только рабочий Mac</span></dd><dt>Объём</dt><dd>2.0 тыс. знаков + agents</dd></dl>
     </article>
     <article class="card" data-fam="mkt" data-where="both" data-terms="growth-experimentation скорость экспериментов роста ставит поток экспериментов: приоритизация по ice или rice, дешёвые проверки на признаки жизни до полноценной кампании, еженедельный разбор результатов, чтобы выводы не оседали внутри одной команды. отдельно разбирает, когда изменение стоит гонять через a/b-тест, а когда просто выкатить, и как считать долю пользователей, которые вообще увидят правку. help users build and scale a high-velocity growth experimentation engine that prioritizes impact and fosters a culture of rapid learning.">
       <div class="card-top">
@@ -1492,6 +1510,15 @@
       <p>Убирает узнаваемые следы нейросети в прозе: вводные обороты для разгона, наречия-усилители, вечные противопоставления «не X, а Y», рубленые драматичные фразы в конце абзаца, тире перед «откровением». Даёт оценку текста по шкале и список конкретных замен.</p>
       <dl class="meta"><dt>Когда</dt><dd>Есть готовый текст, который звучит машинно</dd><dt>Вызов</dt><dd><span class="call">«убери AI-паттерны» · авто</span></dd><dt>Версия</dt><dd>MIT</dd><dt>Объём</dt><dd>12 тыс. знаков + stop-slop-project-knowledge.md</dd></dl>
     </article>
+    <article class="card" data-fam="other" data-where="work" data-terms="teach teach the user a new skill or concept, within this workspace.">
+      <div class="card-top">
+        <span class="slug">teach</span>
+        <span class="fam-tag"><span class="dot"></span>Прочее</span>
+      </div>
+      <h3>teach</h3>
+      <p>Teach the user a new skill or concept, within this workspace.</p>
+      <dl class="meta"><dt>Вызов</dt><dd><span class="call">по смыслу задачи · авто</span></dd><dt>Где</dt><dd><span class="where">Только рабочий Mac</span></dd><dt>Объём</dt><dd>9.5 тыс. знаков + GLOSSARY-FORMAT.md, LEARNING-RECORD-FORMAT.md, MISSION-FORMAT.md</dd></dl>
+    </article>
     <article class="card" data-fam="people" data-where="both" data-terms="time-energy-management личная энергия и фокус переводит планирование с задач на энергию: карта того, какие встречи заряжают батарею, а какие сажают, выбор одного главного дела на день, отделение границы (что сделаю я) от просьбы (что должен сделать другой). отвлечение разбирает как попытку убежать от неприятного чувства, а не как проблему уведомлений. даёт вопросы для аудита календаря и формулировки вежливого отказа. help users master their personal output by shifting from reactive scheduling to intentional energy management, internal trigger mastery, and proactive boundary setting.">
       <div class="card-top">
         <span class="slug">time-energy-management</span>
@@ -1537,6 +1564,24 @@
       <p>Выбирает подход под задачу: сборка кадров кодом (Hyperframes, Remotion), генерация footage моделями (Veo, Sora, Runway, Kling), говорящий аватар (HeyGen, Synthesia) или нарезка длинного материала на клипы. Даёт таблицу моделей по разрешению, длительности и цене, схему промпта «субъект + действие + камера + стиль + настроение» и маршруты под демо продукта, объясняющий ролик и пачку коротких клипов.</p>
       <dl class="meta"><dt>Когда</dt><dd>Нужен ролик: демо, объяснялка, клип для соцсетей</dd><dt>Вызов</dt><dd><span class="call">«сделай видео» · авто</span></dd><dt>Объём</dt><dd>14 тыс. знаков + evals, references</dd></dl>
     </article>
+    <article class="card" data-fam="other" data-where="work" data-terms="wait-what stop. stop. that last message did not land: re-pitch it.">
+      <div class="card-top">
+        <span class="slug">wait-what</span>
+        <span class="fam-tag"><span class="dot"></span>Прочее</span>
+      </div>
+      <h3>wait-what</h3>
+      <p>Stop.</p>
+      <dl class="meta"><dt>Вызов</dt><dd><span class="call">по смыслу задачи · авто</span></dd><dt>Где</dt><dd><span class="where">Только рабочий Mac</span></dd><dt>Объём</dt><dd>0.4 тыс. знаков + agents</dd></dl>
+    </article>
+    <article class="card" data-fam="other" data-where="work" data-terms="wizard generate an interactive bash wizard that walks a human through steps only they can perform. generate an interactive bash wizard that walks a human through steps only they can perform. use when provisioning infrastructure, setting up credentials or ci secrets, walking an unfamiliar third-party dashboard, or running a one-off migration or cutover. don&#x27;t invoke this for steps the agent can perform itself.">
+      <div class="card-top">
+        <span class="slug">wizard</span>
+        <span class="fam-tag"><span class="dot"></span>Прочее</span>
+      </div>
+      <h3>wizard</h3>
+      <p>Generate an interactive bash wizard that walks a human through steps only they can perform.</p>
+      <dl class="meta"><dt>Вызов</dt><dd><span class="call">по смыслу задачи · авто</span></dd><dt>Где</dt><dd><span class="where">Только рабочий Mac</span></dd><dt>Объём</dt><dd>4.1 тыс. знаков + agents, template.sh</dd></dl>
+    </article>
     <article class="card" data-fam="product" data-where="both" data-terms="writing-prds продуктовые спеки и prd ставит документ на проблему: формулировка задачи без готового решения в первых строках, измеримые критерии успеха, явный список того, что в этот заход не делаем. держит первую версию в одну страницу и предлагает вместо вылизанных макетов набросок на уровне схемы экранов. отмечает типовые провалы: слово «просто», ранние высокоточные макеты, отсутствие не-целей, передача дизайну и разработке уже готового решения. help users transform abstract ideas into actionable project specs that align engineering and design teams on the problem and success metrics.">
       <div class="card-top">
         <span class="slug">writing-prds</span>
@@ -1560,7 +1605,7 @@
 
   <footer>
     <span>каталог скиллов</span>
-    <span>152 скиллов</span>
+    <span>157 скиллов</span>
     <span>пересобрано 4 октября 2026</span>
   </footer>
 </div>

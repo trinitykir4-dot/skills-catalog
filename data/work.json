@@ -1,5 +1,5 @@
 {
- "built": "2026-10-04T09:42:48+00:00",
+ "built": "2026-10-04T18:21:04+00:00",
  "machine": "work",
  "skills": [
   {
@@ -884,6 +884,32 @@
    "license": "",
    "name": "graphify",
    "slug": "graphify",
+   "version": ""
+  },
+  {
+   "chars": 157,
+   "desc_en": "A relentless interview to sharpen a plan or design.",
+   "extras": [
+    "agents"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "grill-me",
+   "slug": "grill-me",
+   "version": ""
+  },
+  {
+   "chars": 1975,
+   "desc_en": "Grill the user relentlessly about a plan, decision, or idea. Use when the user wants to stress-test their thinking, or uses any 'grill' trigger phrases.",
+   "extras": [
+    "agents"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "grilling",
+   "slug": "grilling",
    "version": ""
   },
   {
@@ -1888,6 +1914,23 @@
    "version": ""
   },
   {
+   "chars": 9506,
+   "desc_en": "Teach the user a new skill or concept, within this workspace.",
+   "extras": [
+    "GLOSSARY-FORMAT.md",
+    "LEARNING-RECORD-FORMAT.md",
+    "MISSION-FORMAT.md",
+    "RESOURCES-FORMAT.md",
+    "agents"
+   ],
+   "hint": "What would you like to learn about?",
+   "invocable": false,
+   "license": "",
+   "name": "teach",
+   "slug": "teach",
+   "version": ""
+  },
+  {
    "chars": 6296,
    "desc_en": "Help users master their personal output by shifting from reactive scheduling to intentional energy management, internal trigger mastery, and proactive boundary setting.",
    "extras": [
@@ -1952,6 +1995,33 @@
    "license": "",
    "name": "video",
    "slug": "video",
+   "version": ""
+  },
+  {
+   "chars": 396,
+   "desc_en": "Stop. That last message did not land: re-pitch it.",
+   "extras": [
+    "agents"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "wait-what",
+   "slug": "wait-what",
+   "version": ""
+  },
+  {
+   "chars": 4115,
+   "desc_en": "Generate an interactive bash wizard that walks a human through steps only they can perform. Use when provisioning infrastructure, setting up credentials or CI secrets, walking an unfamiliar third-party dashboard, or running a one-off migration or cutover. Don't invoke this for steps the agent can perform itself.",
+   "extras": [
+    "agents",
+    "template.sh"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "wizard",
+   "slug": "wizard",
    "version": ""
   },
   {
