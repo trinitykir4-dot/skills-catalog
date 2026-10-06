@@ -1,5 +1,5 @@
 {
- "built": "2026-10-06T08:50:48+00:00",
+ "built": "2026-10-06T08:52:35+00:00",
  "machine": "work",
  "skills": [
   {
@@ -1764,6 +1764,21 @@
    "license": "",
    "name": "retention-engagement",
    "slug": "retention-engagement",
+   "version": ""
+  },
+  {
+   "chars": 20904,
+   "desc_en": "Create or edit visuals in Michal's fully pixelated RetroWins 8-bit system using approved main characters, six approved supporting characters represented by nine reference images, the canonical Cat side character, flexible retro-futuristic backgrounds, immutable GC gold-coin and SC green-banknote templates, themed assets, and the exact supplied logo family. Use when the user says \"RetroWins\", \"Retro Wins\", or \"RW\", asks for a RetroWins character, the RetroWins Cat, background, GC, SC, currency, logo, monogram, pose, campaign visual, or wants an approved asset added to the library. Do not use for McLuck assets or unrelated pixel art.",
+   "extras": [
+    "agents",
+    "assets",
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "retrowins",
+   "slug": "retrowins",
    "version": ""
   },
   {
