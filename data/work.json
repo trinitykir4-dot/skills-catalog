@@ -1,5 +1,5 @@
 {
- "built": "2026-10-06T08:20:46+00:00",
+ "built": "2026-10-06T08:28:39+00:00",
  "machine": "work",
  "skills": [
   {
@@ -960,6 +960,21 @@
    "license": "",
    "name": "high-stakes-decisions",
    "slug": "high-stakes-decisions",
+   "version": ""
+  },
+  {
+   "chars": 3664,
+   "desc_en": "Create or edit High Royale character and campaign imagery using the locked photoreal Miami-night world, the woman, and the man. Use whenever a request names High Royale or asks for new poses, scenes, banners, backgrounds, or variants featuring these established characters; do not use for unrelated casino brands.",
+   "extras": [
+    "agents",
+    "assets",
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "highroyale",
+   "slug": "highroyale",
    "version": ""
   },
   {
