@@ -1,5 +1,5 @@
 {
- "built": "2026-10-10T08:02:08+00:00",
+ "built": "2026-10-10T08:03:39+00:00",
  "machine": "work",
  "skills": [
   {
@@ -312,6 +312,17 @@
    "license": "",
    "name": "churn-prevention",
    "slug": "churn-prevention",
+   "version": ""
+  },
+  {
+   "chars": 13594,
+   "desc_en": "Local additions to Claude's built-in skills that cannot be edited here - the built-in browser pane, Artifacts (publishing, local preview, capabilities and db), run (checking an app on the user's machine), workflow authoring, and finding skills or plugins. Load together with built-in-browser, artifact-design, artifact-capabilities, run or workflow-authoring, and whenever a screenshot looks blank, an artifact is republished from a new conversation, or someone asks whether a skill or plugin exists.",
+   "extras": [],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "claude-platform-extras",
+   "slug": "claude-platform-extras",
    "version": ""
   },
   {
@@ -1018,7 +1029,7 @@
    "version": ""
   },
   {
-   "chars": 10737,
+   "chars": 11847,
    "desc_en": "Use when the user wants to design, redesign, shape, critique, audit, polish, clarify, distill, harden, optimize, adapt, animate, colorize, extract, or otherwise improve a frontend interface. Covers websites, landing pages, dashboards, product UI, app shells, components, forms, settings, onboarding, and empty states. Handles UX review, visual hierarchy, information architecture, cognitive load, accessibility, performance, responsive behavior, theming, anti-patterns, typography, fonts, spacing, layout, alignment, color, motion, micro-interactions, UX copy, error states, edge cases, i18n, and reusable design systems or tokens. Also use for bland designs that need to become bolder or more delightful, loud designs that should become quieter, live browser iteration on UI elements, or ambitious visual effects that should feel technically extraordinary. Not for backend-only or non-UI tasks.",
    "extras": [
     "reference",
@@ -1080,6 +1091,20 @@
    "name": "invoice-chase",
    "slug": "invoice-chase",
    "version": "0.2.0"
+  },
+  {
+   "chars": 5572,
+   "desc_en": "Kir's own skill (internal) for offloading cheap, narrow judgments to Jev, TypeSafe's System One model, through a logged command-line helper. Use whenever a task needs many yes/no, pick-one-of-a-list or rate-on-a-scale judgments over text (sorting, tagging, triage, ranking candidates, finding the relevant lines of a long file, checking a claim against a source), and when Kir asks how much Jev cost or whether it helped. Not for writing, code, design or multi-step reasoning.",
+   "extras": [
+    "jev.py",
+    "topups.csv"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "jev",
+   "slug": "jev",
+   "version": ""
   },
   {
    "chars": 15669,
@@ -1156,6 +1181,19 @@
    "license": "",
    "name": "legal-risk-assessment",
    "slug": "legal-risk-assessment",
+   "version": ""
+  },
+  {
+   "chars": 15651,
+   "desc_en": "Run any question, idea, or decision through a council of 5 AI advisors who independently analyze it, peer-review each other anonymously, and synthesize a final verdict. Based on Karpathy's LLM Council methodology. MANDATORY TRIGGERS: 'council this', 'run the council', 'war room this', 'pressure-test this', 'stress-test this', 'debate this'. STRONG TRIGGERS (use when combined with a real decision or tradeoff): 'should I X or Y', 'which option', 'what would you do', 'is this the right move', 'validate this', 'get multiple perspectives', 'I can't decide', 'I'm torn between'. Do NOT trigger on simple yes/no questions, factual lookups, or casual 'should I' without a meaningful tradeoff (e.g. 'should I use markdown' is not a council question). DO trigger when the user presents a genuine decision with stakes, multiple options, and context that suggests they want it pressure-tested from multiple angles.",
+   "extras": [
+    "README.md"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "llm-council",
+   "slug": "llm-council",
    "version": ""
   },
   {
@@ -2084,6 +2122,17 @@
    "license": "",
    "name": "wait-what",
    "slug": "wait-what",
+   "version": ""
+  },
+  {
+   "chars": 4629,
+   "desc_en": "Local additions to the accessibility and core-web-vitals skills (both are reinstalled by updates, so edits there would be lost) - evidence rules for a11y findings (alt absent vs empty, screen-reader claims checked in the accessibility tree), contrast measured on the rendered pair after re-theming, and lab timings measured on a shared or busy machine. Load together with accessibility or core-web-vitals for any site audit, a11y finding, contrast check or speed number.",
+   "extras": [],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "web-audit-extras",
+   "slug": "web-audit-extras",
    "version": ""
   },
   {
