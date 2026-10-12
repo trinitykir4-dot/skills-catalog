@@ -1,5 +1,5 @@
 {
- "built": "2026-10-12T06:45:52+00:00",
+ "built": "2026-10-12T06:53:45+00:00",
  "machine": "work",
  "skills": [
   {
@@ -1093,7 +1093,7 @@
    "version": "0.2.0"
   },
   {
-   "chars": 5572,
+   "chars": 5841,
    "desc_en": "Kir's own skill (internal) for offloading cheap, narrow judgments to Jev, TypeSafe's System One model, through a logged command-line helper. Use whenever a task needs many yes/no, pick-one-of-a-list or rate-on-a-scale judgments over text (sorting, tagging, triage, ranking candidates, finding the relevant lines of a long file, checking a claim against a source), and when Kir asks how much Jev cost or whether it helped. Not for writing, code, design or multi-step reasoning.",
    "extras": [
     "jev.py",
