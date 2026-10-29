@@ -1,5 +1,5 @@
 {
- "built": "2026-10-29T11:43:35+00:00",
+ "built": "2026-10-29T11:45:05+00:00",
  "machine": "work",
  "skills": [
   {
@@ -315,8 +315,8 @@
    "version": ""
   },
   {
-   "chars": 13594,
-   "desc_en": "Local additions to Claude's built-in skills that cannot be edited here - the built-in browser pane, Artifacts (publishing, local preview, capabilities and db), run (checking an app on the user's machine), workflow authoring, and finding skills or plugins. Load together with built-in-browser, artifact-design, artifact-capabilities, run or workflow-authoring, and whenever a screenshot looks blank, an artifact is republished from a new conversation, or someone asks whether a skill or plugin exists.",
+   "chars": 26630,
+   "desc_en": "Local additions to Claude's built-in skills that cannot be edited here - the built-in browser pane, Claude in Chrome, Artifacts (publishing, local preview, capabilities and db), run (checking an app on the user's machine), computer use, deep research, workflow authoring, shell habits on this Mac, session conduct in the desktop app, and finding skills or plugins. Load together with built-in-browser, chrome-browser, artifact-design, artifact-capabilities, run, computer-use, deep-research or workflow-authoring, and whenever a screenshot looks blank or stale, an artifact is republished from a new conversation, a site asks for a password, or someone asks whether a skill or plugin exists.",
    "extras": [],
    "hint": "",
    "invocable": false,
@@ -1029,7 +1029,7 @@
    "version": ""
   },
   {
-   "chars": 11847,
+   "chars": 13809,
    "desc_en": "Use when the user wants to design, redesign, shape, critique, audit, polish, clarify, distill, harden, optimize, adapt, animate, colorize, extract, or otherwise improve a frontend interface. Covers websites, landing pages, dashboards, product UI, app shells, components, forms, settings, onboarding, and empty states. Handles UX review, visual hierarchy, information architecture, cognitive load, accessibility, performance, responsive behavior, theming, anti-patterns, typography, fonts, spacing, layout, alignment, color, motion, micro-interactions, UX copy, error states, edge cases, i18n, and reusable design systems or tokens. Also use for bland designs that need to become bolder or more delightful, loud designs that should become quieter, live browser iteration on UI elements, or ambitious visual effects that should feel technically extraordinary. Not for backend-only or non-UI tasks.",
    "extras": [
     "reference",
