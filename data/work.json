@@ -1,5 +1,5 @@
 {
- "built": "2026-10-31T12:19:27+00:00",
+ "built": "2026-10-31T12:28:19+00:00",
  "machine": "work",
  "skills": [
   {
@@ -612,6 +612,17 @@
    "license": "",
    "name": "discover-brand",
    "slug": "discover-brand",
+   "version": ""
+  },
+  {
+   "chars": 15815,
+   "desc_en": "Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This workflow helps users efficiently transfer context, refine content through iteration, and verify the doc works for readers. Trigger when user mentions writing docs, creating proposals, drafting specs, or similar documentation tasks.",
+   "extras": [],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "doc-coauthoring",
+   "slug": "doc-coauthoring",
    "version": ""
   },
   {
