@@ -1,5 +1,5 @@
 {
- "built": "2026-11-02T07:55:40+00:00",
+ "built": "2026-11-02T07:59:28+00:00",
  "machine": "work",
  "skills": [
   {
@@ -214,6 +214,19 @@
    "version": ""
   },
   {
+   "chars": 7520,
+   "desc_en": "Run a structured, resumable multi-session brand identity interview across 8 modules (purpose, positioning, audience, personality, voice, narrative, founder tension) using laddering, 5 Whys, and projective techniques, persisting answers to disk and producing a master brandbook (90_SYNTHESIS.md). Use when creating or repositioning a brand, briefing designers or writers, or making implicit founder knowledge explicit.",
+   "extras": [
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "brand-discovery",
+   "slug": "brand-discovery",
+   "version": ""
+  },
+  {
    "chars": 5438,
    "desc_en": "This skill applies brand guidelines to content creation. It should be used when the user asks to \"write an email\", \"draft a proposal\", \"create a pitch deck\", \"write a LinkedIn post\", \"draft a presentation\", \"write a Slack message\", \"draft sales content\", or any content creation request where brand voice should be applied. Also triggers on \"on-brand\", \"brand voice\", \"enforce voice\", \"apply brand guidelines\", \"brand-aligned content\", \"write in our voice\", \"use our brand tone\", \"make this sound like us\", \"rewrite this in our tone\", or \"this doesn't sound on-brand\". Not for generating guidelines from scratch (use guideline-generation) or discovering brand materials (use discover-brand).",
    "extras": [
@@ -224,6 +237,17 @@
    "license": "",
    "name": "brand-voice-enforcement",
    "slug": "brand-voice-enforcement",
+   "version": ""
+  },
+  {
+   "chars": 19030,
+   "desc_en": "Premium brand-kit image generation skill for creating high-end brand-guidelines boards, logo systems, identity decks, and visual-world presentations. Trained for minimalist, cinematic, editorial, dark-tech, luxury, cultural, security, gaming, developer-tool, and consumer-app brand systems. Optimized for intentional logo concepting, refined composition, sparse typography, strong symbolic meaning, premium mockups, art-directed imagery, and flexible grid layouts.",
+   "extras": [],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "brandkit",
+   "slug": "brandkit",
    "version": ""
   },
   {
@@ -1595,6 +1619,17 @@
    "version": ""
   },
   {
+   "chars": 2073,
+   "desc_en": "Structure compelling design presentations for stakeholders, reviews, and showcases.",
+   "extras": [],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "presentation-deck",
+   "slug": "presentation-deck",
+   "version": ""
+  },
+  {
    "chars": 9226,
    "desc_en": "When the user wants help with pricing decisions, packaging, or monetization strategy. Also use when the user mentions 'pricing,' 'pricing tiers,' 'freemium,' 'free trial,' 'packaging,' 'price increase,' 'value metric,' 'Van Westendorp,' 'willingness to pay,' 'monetization,' 'how much should I charge,' 'my pricing is wrong,' 'pricing page,' 'annual vs monthly,' 'per seat pricing,' 'should I offer a free plan,' 'pricing page teardown,' 'pricing page audit,' 'is my pricing page AI-readable,' or 'can AI read my pricing.' Use this whenever someone is figuring out what to charge, how to structure their plans, or wants to audit a pricing page (for humans and for the AI agents that shortlist tools). For in-app upgrade screens, see paywalls. For offer construction (bonuses, guarantees, value framing, naming) on services/courses/coaching/high-ticket B2B, see offers.",
    "extras": [
@@ -2039,6 +2074,26 @@
    "version": ""
   },
   {
+   "chars": 24340,
+   "desc_en": "Monitors task execution for skill improvement opportunities. Use this skill during ANY multi-step task, agentic workflow, or substantive work session where the agent is using tools and producing deliverables. It captures patterns, user corrections, workflow insights, and methodology worth preserving as reusable skills. Also triggers during post-task feedback discussions and when the user explicitly mentions skill observations, improvements, the observation log, skill taxonomy, or asks the agent to watch for skill opportunities. Also known as \"One Skill to Rule Them All\" — trigger on this phrase too. IMPORTANT: this skill should be invoked at the start of every task-oriented session — if you are about to use tools to produce deliverables, invoke this skill first. For reliable activation, pair this description with a CLAUDE.md instruction or harness-level session-start hook (see Recommended Activation Setup) — description-level matching alone is not enforceable.",
+   "extras": [
+    ".github",
+    ".tessl-plugin",
+    "LICENSE.txt",
+    "README.md",
+    "USER-GUIDE.md",
+    "one-skill-to-rule-them-all-white-background.png",
+    "one-skill-to-rule-them-all.png",
+    "references"
+   ],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "task-observer",
+   "slug": "task-observer",
+   "version": ""
+  },
+  {
    "chars": 9506,
    "desc_en": "Teach the user a new skill or concept, within this workspace.",
    "extras": [
@@ -2120,6 +2175,17 @@
    "license": "",
    "name": "video",
    "slug": "video",
+   "version": ""
+  },
+  {
+   "chars": 4327,
+   "desc_en": "Use when creating After Effects compositions, Premiere Pro motion, video titles, explainer videos, or broadcast motion graphics.",
+   "extras": [],
+   "hint": "",
+   "invocable": false,
+   "license": "",
+   "name": "video-motion-graphics",
+   "slug": "video-motion-graphics",
    "version": ""
   },
   {
