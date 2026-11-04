@@ -1,5 +1,5 @@
 {
- "built": "2026-11-04T15:05:13+00:00",
+ "built": "2026-11-04T15:11:27+00:00",
  "machine": "work",
  "skills": [
   {
@@ -1580,7 +1580,7 @@
    "version": ""
   },
   {
-   "chars": 9016,
+   "chars": 9377,
    "desc_en": "Kir's own internal runbook (not for colleagues) for taking a Figma plugin that someone else built - a zip in Slack, a folder, a GitHub link - and bringing it all the way to a released B2Spin plugin: B2SpinAmber panel, the same canvas output proved by a test, a test in Figma desktop, version 1.0.0, commit and push, cover and icon, publish to B2SPIN, a Plugin Hub page, a note in the brand's T&G Usage Guide, and short texts for the author and #plugin-team. Use when Kir says «оформи плагин», «оформи этот плагин как надо», «вот zip от <имя>», «доведи плагин до релиза», or a colleague's plugin zip or folder shows up in the Figma Plugins project. Not for Kir's own plugins (they already follow figma-plugin-style) and not for later updates of a published plugin (see \"Open\" at the end).",
    "extras": [],
    "hint": "",
