@@ -1,5 +1,5 @@
 {
- "built": "2026-11-04T13:27:29+00:00",
+ "built": "2026-11-04T13:31:51+00:00",
  "machine": "work",
  "skills": [
   {
@@ -339,7 +339,7 @@
    "version": ""
   },
   {
-   "chars": 26630,
+   "chars": 27250,
    "desc_en": "Local additions to Claude's built-in skills that cannot be edited here - the built-in browser pane, Claude in Chrome, Artifacts (publishing, local preview, capabilities and db), run (checking an app on the user's machine), computer use, deep research, workflow authoring, shell habits on this Mac, session conduct in the desktop app, and finding skills or plugins. Load together with built-in-browser, chrome-browser, artifact-design, artifact-capabilities, run, computer-use, deep-research or workflow-authoring, and whenever a screenshot looks blank or stale, an artifact is republished from a new conversation, a site asks for a password, or someone asks whether a skill or plugin exists.",
    "extras": [],
    "hint": "",
